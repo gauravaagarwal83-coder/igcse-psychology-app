@@ -1,0 +1,158 @@
+{
+  "sections": [
+    {
+      "id": "brain_development",
+      "title": "Early Brain Development",
+      "summary": "## 🧠 Brain Structure Formation\n\n**Think of the brain like building a house:**\n• **Week 3-4:** Foundation laid - 3 main sections form\n  - Forebrain (front rooms) 🏠\n  - Midbrain (middle hallway) 🚪\n  - Hindbrain (back utilities) 🔧\n• **Week 5:** Rooms get subdivided (5 total sections)\n\n## 🤸 Cerebellum Development\n\n**Like a sports coach in your brain:**\n• Appears at 6 weeks (tiny!)\n• Grows 3x bigger by age 1 📈\n• Controls: Physical skills, balance, fear responses\n• *Analogy:* As baby learns to crawl/walk, cerebellum grows to match!\n\n## 💓 Medulla Oblongata\n\n**Your body's autopilot system:**\n• Forms by 20 weeks\n• Controls things you don't think about:\n  - Breathing (even while sleeping) 😴\n  - Heart beating 💗\n  - Blood pressure\n  - Sneezing 🤧\n• *Like:* Car's automatic systems (AC, engine cooling)\n\n## ⚡ Neural Connections Explosion\n\n**Brain's internet gets built super fast:**\n• Birth to 3 years: 700-1000 new connections PER SECOND! ⚡\n• Year 1: Brain doubles in size 📏\n• Age 3: Reaches 80% adult size\n• *Think:* Like building internet cables - more connections = faster thinking\n• **Key:** Rich experiences strengthen connections (music, colors, textures)",
+      "quiz": [
+        {
+          "question": "At what age does the foetus develop the three main brain sections?",
+          "options": ["2-3 weeks", "3-4 weeks", "5-6 weeks", "7-8 weeks"],
+          "correct": 1
+        },
+        {
+          "question": "How many neural connections form per second from birth to 3 years?",
+          "options": ["100-200", "300-500", "700-1000", "1200-1500"],
+          "correct": 2
+        },
+        {
+          "question": "What does the medulla oblongata control?",
+          "options": ["Physical skills", "Involuntary responses", "Memory", "Language"],
+          "correct": 1
+        }
+      ]
+    },
+    {
+      "id": "piaget_stages",
+      "title": "Piaget's Stages of Development",
+      "summary": "## 👶 Stage 1: Sensorimotor (0-2 years)\n\n**Like little scientists exploring with their senses:**\n• Start with reflexes (sucking, grasping) 🍼\n• Learn to control movements\n• **Object Permanence (6 months):** \"Peek-a-boo!\" - understanding things exist even when hidden 🙈\n• **4+ months:** Deliberately repeat actions (drop toy, watch it fall, repeat!) 🧨\n• By age 2: Know they're separate from the world\n\n## 🎨 Stage 2: Pre-operational (2-7 years)\n\n### Symbolic Function (2-4 years)\n**Imagination takes off:**\n• **Symbolic Play:** Box becomes car, stick becomes sword 📦→🚗\n• **Language:** Words become symbols for things\n• **Egocentrism:** Can't see other viewpoints (*\"Why can't you see what I see?\"*)\n• **Animism:** Think toys have feelings 🧸💖\n\n### Intuitive Thought (4-7 years)\n**The \"Why?\" stage:**\n• Ask endless questions ❓❓❓\n• **Centration:** Focus on one thing only (*taller glass = more water*)\n• **Can't Conserve:** Don't understand same amount in different shapes\n• **Irreversibility:** Can't mentally \"undo\" actions\n\n## 📚 Stage 3: Concrete Operational (7-12 years)\n\n**Logic with real objects:**\n• **Conservation:** Same amount stays same! 🥤\n• **Seriation:** Sort by size, height, etc. 📈\n• **Classification:** Group things logically\n• **Reversibility:** Can think backwards (*6-2=4, so 4+2=6*)\n• **Decentration:** See multiple viewpoints 👀\n• Still struggle with abstract ideas\n\n## 🧠 Stage 4: Formal Operational (12+ years)\n\n**Abstract thinking unlocked:**\n• Think about thinking 🤔\n• Handle multiple variables\n• Understand consequences (*\"If I don't study, I'll fail\"*)\n• Hypothetical reasoning (*\"What if...?\"*)",
+      "quiz": [
+        {
+          "question": "In which stage does object permanence develop?",
+          "options": ["Pre-operational", "Sensorimotor", "Concrete operational", "Formal operational"],
+          "correct": 1
+        },
+        {
+          "question": "What is egocentrism?",
+          "options": ["Being selfish", "Unable to see other viewpoints", "Focusing on oneself", "Being egotistical"],
+          "correct": 1
+        },
+        {
+          "question": "At what age can children typically conserve according to Piaget?",
+          "options": ["2-4 years", "4-6 years", "7-12 years", "12+ years"],
+          "correct": 2
+        }
+      ]
+    },
+    {
+      "id": "cognitive_development",
+      "title": "Piaget's Cognitive Development Theory",
+      "summary": "**Core Concepts:** Children actively adapt to their world through building mental schemas (plans/patterns about how things work). Intelligence develops through stages, not just accumulating facts. **Key Processes:** *Schemas* - Mental frameworks to understand world (e.g., 'classroom schema' includes desks, board, chairs). *Assimilation* - Adding new experiences to existing schemas (child calls airplane 'bird' because it flies). *Accommodation* - Changing schemas when they don't fit (realizing airplanes aren't birds - they're metal, carry passengers). *Equilibrium* - Mental balance when schemas explain all experiences. **Development of Intelligence:** Built through progressing through stages and creating/modifying schemas. Example: Child's 'bird schema' evolves from 'things that fly' to understanding differences between birds and planes. **Educational Applications:** Discovery learning, focus on thinking processes not just right answers, acknowledge children think differently than adults, individual-paced learning. **Strengths:** Practical applications, generated extensive research, explains how children build knowledge. **Weaknesses:** Ignored cultural/social influences, subjective interpretations, some studies show children can do things earlier than Piaget thought.",
+      "quiz": [
+        {
+          "question": "What is assimilation?",
+          "options": ["Changing schemas", "Adding to existing schemas", "Mental balance", "Adaptation process"],
+          "correct": 1
+        },
+        {
+          "question": "When does accommodation occur?",
+          "options": ["When schemas work perfectly", "When new experiences fit existing schemas", "When schemas must be changed", "During equilibrium"],
+          "correct": 2
+        },
+        {
+          "question": "What is equilibrium in Piaget's theory?",
+          "options": ["Physical balance", "Mental balance when schemas work", "Emotional stability", "Social harmony"],
+          "correct": 1
+        }
+      ]
+    },
+    {
+      "id": "dweck_mindset",
+      "title": "Dweck's Mindset Theory",
+      "summary": "**Fixed vs Growth Mindset:** *Fixed Mindset* - Believes abilities are unchangeable, innate. When praised for being 'smart', children think ability is fixed. Leads to avoiding challenges, giving up easily, ignoring feedback, feeling threatened by others' success. Can cause depression and learned helplessness. *Growth Mindset* - Believes practice and effort improve abilities. When praised for effort, children persist through challenges, embrace feedback, learn from failures, inspired by others' success. **Impact of Praise:** Person praise ('You're so smart!') → Fixed mindset. Process praise ('You worked really hard!') → Growth mindset. Teachers' mindsets affect how they view student potential and ability to improve. **Research Evidence:** Mueller & Dweck (1998) - Ability praise led to fixed mindset and vulnerability to setbacks. Effort praise led to growth mindset and perseverance. Yeager & Dweck (2012) - 1500+ students, low achievers with growth mindset training performed better than control group. **Educational Implications:** Focus on praising effort and strategies, not intelligence. Teach that brain can grow and change. Emphasize learning process over grades. Help students see mistakes as learning opportunities. **Strengths:** Practical applications, positive theory showing change is possible, research support. **Weaknesses:** Many studies in artificial lab settings, may oversimplify complex learning factors, focuses on praise type rather than broader teaching quality.",
+      "quiz": [
+        {
+          "question": "What characterizes a fixed mindset?",
+          "options": ["Believing abilities can improve", "Avoiding challenges", "Embracing feedback", "Enjoying effort"],
+          "correct": 1
+        },
+        {
+          "question": "According to Dweck, what type of praise develops growth mindset?",
+          "options": ["Praising intelligence", "Praising ability", "Praising effort", "Praising results"],
+          "correct": 2
+        },
+        {
+          "question": "What happens when students have a growth mindset?",
+          "options": ["They avoid difficult tasks", "They give up easily", "They persist through challenges", "They focus only on grades"],
+          "correct": 2
+        }
+      ]
+    },
+    {
+      "id": "willingham_learning",
+      "title": "Willingham's Learning Theory",
+      "summary": "**Factual Knowledge First:** Skills like problem-solving and reasoning require prior factual knowledge. Example: Understanding 'she has more likes than me' needs knowledge of social media 'likes'. Knowledge frees up working memory space for higher-order thinking. **Working Memory:** Limited capacity system with separate processing for visual and auditory information, plus decision-making component. When facts are automatic, more mental space available for complex thinking. **Practice and Effort:** Essential for mastery - must practice until skills become automatic. 'Don't practice until you get it right, practice until you can't get it wrong.' Applies to knowledge (rehearsal → long-term memory) and motor skills (muscle memory through repetition). **Cognitive Development Strategies:** Use problems within student ability but requiring effort. Understand developmental stages but remember abilities vary day-to-day. Consider factors beyond development (task understanding, motivation). **Physical Development:** Motor skills improve through conscious practice of movement sequences. Focus on suitable movements, practice in correct order, use conscious effort to refine technique. **Social Development:** Challenges Piaget - believes children can take others' perspectives by 18 months (not 7 years). Strategies: demonstrate appropriate behavior (social learning), control impulsive behavior through structured environment, encourage self-regulation, delay rewards to build self-control. **Strengths:** Practical applications, draws from multiple areas of cognitive science, experimental support. **Weaknesses:** Doesn't emphasize individual differences enough, not one testable theory, acknowledges genetic factors but focuses on universal strategies.",
+      "quiz": [
+        {
+          "question": "According to Willingham, what must come before skill development?",
+          "options": ["Practice", "Effort", "Factual knowledge", "Memory"],
+          "correct": 2
+        },
+        {
+          "question": "Why is practice important in Willingham's theory?",
+          "options": ["To impress teachers", "To make skills automatic", "To fill time", "To compete with others"],
+          "correct": 1
+        },
+        {
+          "question": "What does working memory limitation mean for learning?",
+          "options": ["We can't learn new things", "Automated skills free up space", "Memory doesn't matter", "Practice is useless"],
+          "correct": 1
+        }
+      ]
+    },
+    {
+      "id": "three_mountains",
+      "title": "Three Mountains Study (Piaget & Inhelder, 1956)",
+      "summary": "**Background:** Tested Piaget's theory that pre-operational children (2-7) are egocentric - can only see world from their own viewpoint. Concrete operational children (7+) can 'decentre' and see others' perspectives. **Method:** 100 children aged 4-12. Used 1m² model with 3 mountains: green (lowest, house on top, winding path), brown (middle, red cross, stream), grey (highest, snow-covered). 10 photographs from different viewpoints. Wooden doll with no facial features. **Procedure:** Three tasks: 1) Use cardboard shapes to show mountain view from different positions (own view and doll's view). 2) Choose photographs showing what they/doll could see from different positions. 3) Position doll to match given photograph viewpoint. **Results:** *Pre-operational (4-6.5 years):* Always chose their own view, even when asked for doll's perspective. Couldn't position doll correctly. Showed egocentrism throughout. *Concrete operational (7+ years):* Gradually understood others have different views. By 9-10, could accurately show doll's different perspective. Could coordinate multiple viewpoints. **Conclusion:** Supported Piaget's stages - younger children egocentric, older children can decentre. Provided evidence for stage-based cognitive development. **Strengths:** Detailed qualitative data, experimental controls, reliable findings across many children, showed gradual transition between stages. **Criticisms:** Other studies with more realistic tasks found children could decentre earlier. Borke (1975) - 3-year-olds 79% correct with Sesame Street character. Repacholi & Gopnik (1997) - 18-month-olds showed non-egocentric behavior with food preferences. Task may have been too abstract/unrealistic for younger children to understand.",
+      "quiz": [
+        {
+          "question": "What did the Three Mountains study test?",
+          "options": ["Memory ability", "Egocentrism", "Physical skills", "Language development"],
+          "correct": 1
+        },
+        {
+          "question": "What age group showed egocentrism in the study?",
+          "options": ["2-4 years", "4-7 years", "7-9 years", "9-12 years"],
+          "correct": 1
+        },
+        {
+          "question": "What was a main criticism of the Three Mountains task?",
+          "options": ["Too easy", "Too realistic", "Unrealistic scenario", "Too short"],
+          "correct": 2
+        }
+      ]
+    },
+    {
+      "id": "parent_praise",
+      "title": "Parent Praise Study (Gunderson et al., 2013)",
+      "summary": "**Background:** Built on Dweck's mindset theory using natural home settings instead of artificial lab experiments. Previous research showed praise type affects children's beliefs about ability and effort. **Person vs Process Praise:** *Person Praise* - Praising the individual ('You're so smart!') → Entity theory (abilities are fixed) → Fixed mindset → Less likely to try hard on difficult tasks. *Process Praise* - Praising behavior/effort ('You worked really hard!') → Incremental theory (abilities can change) → Growth mindset → More likely to persist and improve. **Gender Differences:** Previous studies suggested boys receive more process praise (leading to incremental theory), girls receive more person praise (leading to entity theory). This may explain some gender differences in academic persistence. **Method:** Longitudinal study following 53 children (29 boys, 24 girls) from 14-38 months old. Participants: 64% white, 17% African-American, 11% Hispanic, 8% multiracial. Parents didn't know praise was being studied (thought it was about language development). Recorded natural parent-child interactions at home. Five years later, measured children's motivational frameworks. **Aims:** 1) Test if natural parental praise affects children's later reasoning about ability vs effort. 2) Examine if parents give different praise types to boys vs girls. 3) See if early praise predicts later motivational beliefs. **Ecological Validity:** Major strength - used natural home environment rather than artificial lab setting. Provides more realistic understanding of how praise actually affects children in real life. **Significance:** Demonstrates long-term effects of early praise patterns on children's beliefs about learning and ability. Shows importance of how parents talk to young children during everyday interactions. **Connection to Education:** Supports teaching parents and teachers to focus praise on effort and process rather than innate ability or intelligence.",
+      "quiz": [
+        {
+          "question": "What is person praise?",
+          "options": ["Praising effort", "Praising the individual", "Praising behavior", "Praising results"],
+          "correct": 1
+        },
+        {
+          "question": "What does process praise lead to?",
+          "options": ["Fixed mindset", "Growth mindset", "Confusion", "Laziness"],
+          "correct": 1
+        },
+        {
+          "question": "What was an advantage of Gunderson's study?",
+          "options": ["Lab setting", "Artificial environment", "Natural home setting", "Short duration"],
+          "correct": 2
+        }
+      ]
+    }
+  ]
+}

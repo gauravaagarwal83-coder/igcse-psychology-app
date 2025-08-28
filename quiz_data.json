@@ -1,0 +1,53 @@
+{
+  "brain_development": [
+    {"type": "multiple", "question": "At what age does the foetus develop the three main brain sections?", "options": ["2-3 weeks", "3-4 weeks", "5-6 weeks", "7-8 weeks"], "correct": 1},
+    {"type": "multiple", "question": "How many neural connections form per second from birth to 3 years?", "options": ["100-200", "300-500", "700-1000", "1200-1500"], "correct": 2},
+    {"type": "short", "question": "What does the medulla oblongata control? (one word)", "answer": "breathing"},
+    {"type": "multiple", "question": "By what age does the brain reach 80% of adult size?", "options": ["1 year", "2 years", "3 years", "4 years"], "correct": 2},
+    {"type": "short", "question": "The cerebellum grows how many times larger in the first year?", "answer": "3"},
+    {"type": "multiple", "question": "Which brain section connects to the spinal cord?", "options": ["Forebrain", "Midbrain", "Hindbrain", "Cerebellum"], "correct": 2},
+    {"type": "short", "question": "What is the 'little brain' called?", "answer": "cerebellum"},
+    {"type": "multiple", "question": "When is the cerebellum first visible in the foetus?", "options": ["4 weeks", "6 weeks", "8 weeks", "10 weeks"], "correct": 1},
+    {"type": "multiple", "question": "What percentage of adult brain size is reached by age 3?", "options": ["60%", "70%", "80%", "90%"], "correct": 2},
+    {"type": "short", "question": "Name one involuntary response controlled by medulla", "answer": "sneezing"},
+    {"type": "multiple", "question": "The forebrain splits into how many sections by week 5?", "options": ["1", "2", "3", "4"], "correct": 1},
+    {"type": "multiple", "question": "What controls physical skills in the brain?", "options": ["Medulla", "Cerebellum", "Forebrain", "Midbrain"], "correct": 1},
+    {"type": "short", "question": "Brain doubles in size during which year?", "answer": "first"},
+    {"type": "multiple", "question": "Neural connections are strengthened by what?", "options": ["Sleep", "Food", "Stimulation", "Age"], "correct": 2},
+    {"type": "multiple", "question": "The medulla forms by which week?", "options": ["15 weeks", "20 weeks", "25 weeks", "30 weeks"], "correct": 1}
+  ],
+  "piaget_stages": [
+    {"type": "multiple", "question": "In which stage does object permanence develop?", "options": ["Pre-operational", "Sensorimotor", "Concrete operational", "Formal operational"], "correct": 1},
+    {"type": "short", "question": "What is the inability to see other viewpoints called?", "answer": "egocentrism"},
+    {"type": "multiple", "question": "At what age can children typically conserve according to Piaget?", "options": ["2-4 years", "4-6 years", "7-12 years", "12+ years"], "correct": 2},
+    {"type": "multiple", "question": "Which stage involves symbolic play?", "options": ["Sensorimotor", "Pre-operational", "Concrete operational", "Formal operational"], "correct": 1},
+    {"type": "short", "question": "Focusing on one aspect only is called what?", "answer": "centration"},
+    {"type": "multiple", "question": "Object permanence develops around which age?", "options": ["3 months", "6 months", "9 months", "12 months"], "correct": 1},
+    {"type": "multiple", "question": "Formal operational stage begins at what age?", "options": ["7 years", "10 years", "12 years", "15 years"], "correct": 2},
+    {"type": "short", "question": "Believing objects are alive is called what?", "answer": "animism"},
+    {"type": "multiple", "question": "Which stage shows irreversibility?", "options": ["Sensorimotor", "Pre-operational", "Concrete operational", "Formal operational"], "correct": 1},
+    {"type": "multiple", "question": "Concrete operational stage is from which ages?", "options": ["2-7 years", "7-12 years", "12+ years", "0-2 years"], "correct": 1},
+    {"type": "short", "question": "Mental operations refer to what type of thinking?", "answer": "reasoning"},
+    {"type": "multiple", "question": "Decentration means ability to see what?", "options": ["One viewpoint", "Multiple viewpoints", "No viewpoints", "Past viewpoints"], "correct": 1},
+    {"type": "multiple", "question": "Sensorimotor stage children learn through what?", "options": ["Language", "Senses", "Logic", "Memory"], "correct": 1},
+    {"type": "short", "question": "Pre-operational stage is divided into how many substages?", "answer": "2"},
+    {"type": "multiple", "question": "Abstract thinking develops in which stage?", "options": ["Sensorimotor", "Pre-operational", "Concrete operational", "Formal operational"], "correct": 3}
+  ],
+  "cognitive_development": [
+    {"type": "multiple", "question": "What is assimilation?", "options": ["Changing schemas", "Adding to existing schemas", "Mental balance", "Adaptation process"], "correct": 1},
+    {"type": "short", "question": "Mental frameworks to understand the world are called what?", "answer": "schemas"},
+    {"type": "multiple", "question": "When does accommodation occur?", "options": ["When schemas work perfectly", "When new experiences fit existing schemas", "When schemas must be changed", "During equilibrium"], "correct": 2},
+    {"type": "multiple", "question": "What is equilibrium in Piaget's theory?", "options": ["Physical balance", "Mental balance when schemas work", "Emotional stability", "Social harmony"], "correct": 1},
+    {"type": "short", "question": "The process of adapting to the world is called what?", "answer": "adaptation"},
+    {"type": "multiple", "question": "Intelligence develops through building what?", "options": ["Memory", "Schemas", "Language", "Reflexes"], "correct": 1},
+    {"type": "multiple", "question": "What happens when schemas don't fit new experiences?", "options": ["Assimilation", "Accommodation", "Equilibrium", "Adaptation"], "correct": 1},
+    {"type": "short", "question": "What is the plural of schema?", "answer": "schemata"},
+    {"type": "multiple", "question": "Discovery learning is based on whose theory?", "options": ["Freud", "Piaget", "Skinner", "Pavlov"], "correct": 1},
+    {"type": "multiple", "question": "Schemas are mental what?", "options": ["Images", "Representations", "Memories", "Reflexes"], "correct": 1},
+    {"type": "short", "question": "Children build knowledge through creating what?", "answer": "schemas"},
+    {"type": "multiple", "question": "What state occurs when schemas explain all experiences?", "options": ["Disequilibrium", "Equilibrium", "Accommodation", "Assimilation"], "correct": 1},
+    {"type": "multiple", "question": "Piaget's theory focuses on what type of development?", "options": ["Physical", "Emotional", "Cognitive", "Social"], "correct": 2},
+    {"type": "short", "question": "Adding new experiences to existing schemas is called what?", "answer": "assimilation"},
+    {"type": "multiple", "question": "What drives cognitive development according to Piaget?", "options": ["Teaching", "Adaptation", "Memory", "Language"], "correct": 1}
+  ]
+}

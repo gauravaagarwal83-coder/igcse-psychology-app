@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IGCSE Psychology Study App</title>
+    <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <div class="header-row">
+            <h1>IGCSE Psychology Study App</h1>
+            <p>Master Development Psychology with focused 10-minute study sessions</p>
+        </div>
+        
+        <div class="topic-selector">
+            <label for="topic-dropdown">Select Topic:</label>
+            <select id="topic-dropdown" onchange="switchTopic()">
+                <option value="topic1">Topic 1 - Development</option>
+                <option value="topic2">Topic 2 - Memory</option>
+            </select>
+        </div>
+        
+        <div class="navigation">
+            <button onclick="showStudy()" class="nav-btn active" id="study-btn">Study</button>
+            <button onclick="showQuiz()" class="nav-btn" id="quiz-btn">Quiz</button>
+            <button onclick="showProgress()" class="nav-btn" id="progress-btn">Progress</button>
+        </div>
+        
+        <div id="study-section" class="section active">
+            <h2 id="topic-title">Let's review from GCSE TEXT BOOK</h2>
+            <div class="swiper study-swiper">
+                <div class="swiper-wrapper" id="study-topics"></div>
+                <div class="swiper-pagination"></div>
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+            </div>
+        </div>
+        
+        <div id="quiz-section" class="section">
+            <h2>Practice Quiz</h2>
+            <div id="quiz-container">
+                <div id="quiz-selection">
+                    <p>Select a topic to quiz:</p>
+                    <div id="quiz-topics"></div>
+                </div>
+                <div id="quiz-content" style="display:none;">
+                    <div id="question-container"></div>
+                    <div id="quiz-results" style="display:none;"></div>
+                </div>
+            </div>
+        </div>
+        
+        <div id="progress-section" class="section">
+            <h2>Your Progress</h2>
+            <div id="progress-container">
+                <div class="progress-stats">
+                    <div class="stat-card">
+                        <h3>Study Sessions</h3>
+                        <span id="study-count">0</span>
+                    </div>
+                    <div class="stat-card">
+                        <h3>Quiz Attempts</h3>
+                        <span id="quiz-count">0</span>
+                    </div>
+                    <div class="stat-card">
+                        <h3>Average Score</h3>
+                        <span id="avg-score">0%</span>
+                    </div>
+                </div>
+                <div id="detailed-progress"></div>
+            </div>
+        </div>
+    </div>
+    
+    <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>

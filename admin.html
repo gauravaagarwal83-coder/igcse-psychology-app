@@ -1,0 +1,414 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin - Psychology Study Progress</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: #f5f7fa;
+            color: #333;
+            line-height: 1.6;
+        }
+        
+        .admin-container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        
+        .header {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 30px;
+            border-radius: 15px;
+            margin-bottom: 30px;
+            text-align: center;
+        }
+        
+        .header h1 {
+            font-size: 2.5em;
+            margin-bottom: 10px;
+        }
+        
+        .stats-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+            margin-bottom: 30px;
+        }
+        
+        .stat-card {
+            background: white;
+            padding: 25px;
+            border-radius: 12px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+            text-align: center;
+        }
+        
+        .stat-number {
+            font-size: 2.5em;
+            font-weight: bold;
+            color: #667eea;
+            margin-bottom: 10px;
+        }
+        
+        .stat-label {
+            color: #666;
+            font-size: 1.1em;
+        }
+        
+        .progress-section {
+            background: white;
+            padding: 30px;
+            border-radius: 12px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+            margin-bottom: 30px;
+        }
+        
+        .section-title {
+            font-size: 1.5em;
+            margin-bottom: 20px;
+            color: #2d3748;
+            border-bottom: 2px solid #e2e8f0;
+            padding-bottom: 10px;
+        }
+        
+        .progress-item {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 15px;
+            border-bottom: 1px solid #e2e8f0;
+        }
+        
+        .topic-info {
+            flex: 1;
+        }
+        
+        .topic-status {
+            display: flex;
+            gap: 15px;
+            margin-top: 5px;
+        }
+        
+        .quiz-status {
+            padding: 3px 10px;
+            border-radius: 15px;
+            font-size: 0.85em;
+            font-weight: 600;
+        }
+        
+        .reset-btn {
+            background: linear-gradient(135deg, #ed8936 0%, #dd6b20 100%);
+            color: white;
+            border: none;
+            padding: 8px 15px;
+            border-radius: 20px;
+            cursor: pointer;
+            font-weight: 600;
+            font-size: 0.9em;
+            transition: all 0.3s ease;
+        }
+        
+        .reset-btn:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 4px 15px rgba(237, 137, 54, 0.4);
+        }
+        
+        .progress-item:last-child {
+            border-bottom: none;
+        }
+        
+        .topic-name {
+            font-weight: 600;
+            color: #2d3748;
+        }
+        
+        .completion-status {
+            padding: 5px 15px;
+            border-radius: 20px;
+            font-size: 0.9em;
+            font-weight: 600;
+        }
+        
+        .completed {
+            background: #c6f6d5;
+            color: #22543d;
+        }
+        
+        .not-started {
+            background: #fed7d7;
+            color: #742a2a;
+        }
+        
+        .quiz-history {
+            background: white;
+            padding: 30px;
+            border-radius: 12px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+        }
+        
+        .quiz-item {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 12px;
+            background: #f8f9fa;
+            border-radius: 8px;
+            margin-bottom: 10px;
+        }
+        
+        .quiz-score {
+            font-weight: bold;
+            padding: 5px 10px;
+            border-radius: 15px;
+        }
+        
+        .score-excellent {
+            background: #c6f6d5;
+            color: #22543d;
+        }
+        
+        .score-good {
+            background: #bee3f8;
+            color: #2a4365;
+        }
+        
+        .score-needs-work {
+            background: #fbb6ce;
+            color: #702459;
+        }
+        
+        .actions {
+            margin-top: 30px;
+            text-align: center;
+        }
+        
+        .btn {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            border: none;
+            padding: 12px 24px;
+            border-radius: 25px;
+            cursor: pointer;
+            font-weight: 600;
+            margin: 0 10px;
+            transition: all 0.3s ease;
+        }
+        
+        .btn:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 4px 15px rgba(102, 126, 234, 0.4);
+        }
+        
+        .btn-danger {
+            background: linear-gradient(135deg, #e53e3e 0%, #c53030 100%);
+        }
+        
+        .btn-danger:hover {
+            box-shadow: 0 4px 15px rgba(229, 62, 62, 0.4);
+        }
+        
+        .timestamp {
+            color: #666;
+            font-size: 0.9em;
+        }
+    </style>
+</head>
+<body>
+    <div class="admin-container">
+        <div class="header">
+            <h1>📊 Study Progress Dashboard</h1>
+            <p>Monitor learning progress and performance analytics</p>
+        </div>
+        
+        <div class="stats-grid">
+            <div class="stat-card">
+                <div class="stat-number" id="totalSessions">0</div>
+                <div class="stat-label">Study Sessions</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-number" id="totalQuizzes">0</div>
+                <div class="stat-label">Quizzes Taken</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-number" id="avgScore">0%</div>
+                <div class="stat-label">Average Score</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-number" id="completionRate">0%</div>
+                <div class="stat-label">Completion Rate</div>
+            </div>
+        </div>
+        
+        <div class="progress-section">
+            <h2 class="section-title">📚 Topic Progress</h2>
+            <div id="topicProgress"></div>
+        </div>
+        
+        <div class="quiz-history">
+            <h2 class="section-title">🧠 Quiz Performance History</h2>
+            <div id="quizHistory"></div>
+        </div>
+        
+        <div class="actions">
+            <button class="btn" onclick="exportData()">📥 Export Data</button>
+            <button class="btn" onclick="refreshData()">🔄 Refresh</button>
+            <button class="btn btn-danger" onclick="resetAllData()">🗑️ Reset All Data</button>
+        </div>
+    </div>
+    
+    <script>
+        const topics = [
+            { id: 'brain_development', title: 'Early Brain Development' },
+            { id: 'piaget_stages', title: "Piaget's Stages of Development" },
+            { id: 'cognitive_development', title: "Piaget's Cognitive Development Theory" },
+            { id: 'dweck_mindset', title: "Dweck's Mindset Theory" },
+            { id: 'willingham_learning', title: "Willingham's Learning Theory" },
+            { id: 'three_mountains', title: 'Three Mountains Study' },
+            { id: 'parent_praise', title: 'Parent Praise Study' }
+        ];
+        
+        function loadAdminData() {
+            const progress = JSON.parse(localStorage.getItem('psychologyProgress')) || {
+                studySessions: 0,
+                quizAttempts: 0,
+                scores: [],
+                completedSections: []
+            };
+            
+            // Update stats
+            document.getElementById('totalSessions').textContent = progress.studySessions;
+            document.getElementById('totalQuizzes').textContent = progress.quizAttempts;
+            
+            const avgScore = progress.scores.length > 0 
+                ? Math.round(progress.scores.reduce((a, b) => a + b, 0) / progress.scores.length)
+                : 0;
+            document.getElementById('avgScore').textContent = avgScore + '%';
+            
+            const completionRate = Math.round((progress.completedSections.length / topics.length) * 100);
+            document.getElementById('completionRate').textContent = completionRate + '%';
+            
+            // Load topic progress
+            const topicContainer = document.getElementById('topicProgress');
+            const quizAttempted = JSON.parse(localStorage.getItem('quizAttempted')) || {};
+            
+            topicContainer.innerHTML = topics.map(topic => {
+                const isCompleted = progress.completedSections.includes(topic.id);
+                const quizTaken = quizAttempted[topic.id];
+                return `
+                    <div class="progress-item">
+                        <div class="topic-info">
+                            <span class="topic-name">${topic.title}</span>
+                            <div class="topic-status">
+                                <span class="completion-status ${isCompleted ? 'completed' : 'not-started'}">
+                                    Study: ${isCompleted ? '✅ Done' : '❌ Not Done'}
+                                </span>
+                                <span class="quiz-status ${quizTaken ? 'completed' : 'not-started'}">
+                                    Quiz: ${quizTaken ? '✅ Taken' : '❌ Not Taken'}
+                                </span>
+                            </div>
+                        </div>
+                        <button onclick="resetTopic('${topic.id}')" class="reset-btn">🔄 Reset</button>
+                    </div>
+                `;
+            }).join('');
+            
+            // Load quiz history
+            const quizContainer = document.getElementById('quizHistory');
+            if (progress.scores.length === 0) {
+                quizContainer.innerHTML = '<p style="text-align: center; color: #666;">No quiz attempts yet</p>';
+            } else {
+                quizContainer.innerHTML = progress.scores.map((score, index) => {
+                    const scoreClass = score >= 80 ? 'score-excellent' : 
+                                     score >= 60 ? 'score-good' : 'score-needs-work';
+                    const performance = score >= 80 ? 'Excellent' : 
+                                      score >= 60 ? 'Good' : 'Needs Work';
+                    
+                    return `
+                        <div class="quiz-item">
+                            <span>Quiz Attempt #${index + 1}</span>
+                            <span class="quiz-score ${scoreClass}">${score}% - ${performance}</span>
+                        </div>
+                    `;
+                }).join('');
+            }
+        }
+        
+        function exportData() {
+            const progress = JSON.parse(localStorage.getItem('psychologyProgress')) || {};
+            const dataStr = JSON.stringify(progress, null, 2);
+            const dataBlob = new Blob([dataStr], {type: 'application/json'});
+            
+            const link = document.createElement('a');
+            link.href = URL.createObjectURL(dataBlob);
+            link.download = 'psychology_study_progress.json';
+            link.click();
+        }
+        
+        function refreshData() {
+            loadAdminData();
+        }
+        
+        function resetTopic(topicId) {
+            const topicName = topics.find(t => t.id === topicId)?.title || topicId;
+            if (confirm(`Reset all progress for "${topicName}"? This will clear study progress, quiz attempts, and performance history.`)) {
+                // Reset study progress
+                const progress = JSON.parse(localStorage.getItem('psychologyProgress')) || {
+                    studySessions: 0,
+                    quizAttempts: 0,
+                    scores: [],
+                    completedSections: []
+                };
+                
+                const index = progress.completedSections.indexOf(topicId);
+                if (index > -1) {
+                    progress.completedSections.splice(index, 1);
+                    progress.studySessions = Math.max(0, progress.studySessions - 1);
+                }
+                
+                // Clear quiz performance history (remove one quiz attempt and score)
+                if (progress.quizAttempts > 0) {
+                    progress.quizAttempts--;
+                    if (progress.scores.length > 0) {
+                        progress.scores.pop(); // Remove last score
+                    }
+                }
+                
+                localStorage.setItem('psychologyProgress', JSON.stringify(progress));
+                
+                // Reset quiz attempt restriction
+                const quizAttempted = JSON.parse(localStorage.getItem('quizAttempted')) || {};
+                delete quizAttempted[topicId];
+                localStorage.setItem('quizAttempted', JSON.stringify(quizAttempted));
+                
+                loadAdminData();
+                alert(`"${topicName}" has been reset. All progress and performance history cleared.`);
+            }
+        }
+        
+        function resetAllData() {
+            if (confirm('Are you sure you want to reset all progress data? This cannot be undone.')) {
+                localStorage.removeItem('psychologyProgress');
+                localStorage.removeItem('quizAttempted');
+                loadAdminData();
+                alert('All data has been reset.');
+            }
+        }
+        
+        // Load data on page load
+        document.addEventListener('DOMContentLoaded', loadAdminData);
+        
+        // Auto-refresh every 30 seconds
+        setInterval(loadAdminData, 30000);
+    </script>
+</body>
+</html>
