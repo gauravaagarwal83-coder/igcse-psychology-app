@@ -186,18 +186,16 @@ function handleEscKey(e) {
 
 function formatContent(content) {
     return content
-        .replace(/\n\n/g, '</p><p>')
+        .replace(/\n\n/g, '<br><br>')
         .replace(/\n/g, '<br>')
         .replace(/\*\*(.*?)\*\*/g, '<strong>$1</strong>')
         .replace(/\*(.*?)\*/g, '<em>$1</em>')
         .replace(/^## (.*$)/gm, '<h3>$1</h3>')
         .replace(/^• (.*$)/gm, '<li>$1</li>')
         .replace(/(<li>.*?<\/li>)/gs, '<ul>$1</ul>')
-        .replace(/^(.)/gm, '<p>$1')
-        .replace(/<\/p><p>/g, '</p><p>')
-        .replace(/<p><h3>/g, '<h3>')
-        .replace(/<p><ul>/g, '<ul>')
-        .replace(/<\/ul><\/p>/g, '</ul>');
+        .replace(/<br><h3>/g, '<h3>')
+        .replace(/<br><ul>/g, '<ul>')
+        .replace(/<\/ul><br>/g, '</ul><br>');
 }
 
 function loadQuizTopics() {
