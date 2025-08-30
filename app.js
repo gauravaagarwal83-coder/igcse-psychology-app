@@ -142,17 +142,9 @@ function openStudyModal(sectionId) {
             <div class="modal-body">
                 <div class="summary-content">${formatContent(section.summary)}</div>
                 <div class="modal-actions">
-                    <button onclick="editSummary('${section.id}')" class="edit-btn">✏️ Edit</button>
                     <button onclick="markAsStudied('${section.id}'); closeStudyModal();" class="study-btn">
                         ${userProgress.completedSections.includes(section.id) ? '✓ Mark as Reviewed' : 'Mark as Studied'}
                     </button>
-                </div>
-                <div class="edit-area" id="edit-${section.id}" style="display: none;">
-                    <textarea id="textarea-${section.id}" class="edit-textarea"></textarea>
-                    <div class="edit-actions">
-                        <button onclick="saveSummary('${section.id}')" class="save-btn">Save</button>
-                        <button onclick="cancelEdit('${section.id}')" class="cancel-btn">Cancel</button>
-                    </div>
                 </div>
             </div>
         </div>
@@ -448,37 +440,7 @@ function updateProgress() {
     }
 }
 
-function editSummary(sectionId) {
-    const editDiv = document.getElementById(`edit-${sectionId}`);
-    const textarea = document.getElementById(`textarea-${sectionId}`);
-    
-    editDiv.style.display = 'block';
-    
-    const section = studyData.sections.find(s => s.id === sectionId);
-    textarea.value = section ? section.summary : '';
-    textarea.focus();
-}
 
-function cancelEdit(sectionId) {
-    const editDiv = document.getElementById(`edit-${sectionId}`);
-    editDiv.style.display = 'none';
-}
-
-function saveSummary(sectionId) {
-    const textarea = document.getElementById(`textarea-${sectionId}`);
-    const editDiv = document.getElementById(`edit-${sectionId}`);
-    
-    const section = studyData.sections.find(s => s.id === sectionId);
-    if (section) {
-        section.summary = textarea.value;
-        const savedKey = currentTopic === 'topic1' ? 'studyData' : 'studyDataTopic2';
-        localStorage.setItem(savedKey, JSON.stringify(studyData));
-    }
-    
-    editDiv.style.display = 'none';
-    closeStudyModal();
-    loadStudyTopics();
-}
 
 function saveProgress() {
     localStorage.setItem('psychologyProgress', JSON.stringify(userProgress));
