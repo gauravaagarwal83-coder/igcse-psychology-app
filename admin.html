@@ -325,8 +325,6 @@
             const topicContainer = document.getElementById('topicProgress');
             const quizAttempted = JSON.parse(localStorage.getItem('quizAttempted')) || {};
             
-            const filteredTopics = currentFilter === 'all' ? allTopics : allTopics.filter(t => t.topicPrefix === currentFilter);
-            
             topicContainer.innerHTML = filteredTopics.map(topic => {
                 const topicKey = `${topic.topicPrefix}_${topic.id}`;
                 const isCompleted = progress.completedSections.includes(topicKey);
