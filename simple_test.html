@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head><title>Format Test</title></head>
+<body>
+<div id="result"></div>
+<script>
+function formatContent(content) {
+    return content
+        .replace(/\n\n/g, '<br><br>')
+        .replace(/\n/g, '<br>')
+        .replace(/\*\*(.*?)\*\*/g, '<strong>$1</strong>')
+        .replace(/\*(.*?)\*/g, '<em>$1</em>')
+        .replace(/^## (.*$)/gm, '<h3>$1</h3>')
+        .replace(/^• (.*$)/gm, '<li>$1</li>')
+        .replace(/(<li>.*?<\/li>)/gs, '<ul>$1</ul>')
+        .replace(/<br><h3>/g, '<h3>')
+        .replace(/<br><ul>/g, '<ul>')
+        .replace(/<\/ul><br>/g, '</ul><br>');
+}
+
+// Card 1 - has markdown
+const card1 = "## 🧠 Brain Structure Formation\n\n**Think of the brain like building a house:**\n• **Week 3-4:** Foundation laid";
+
+// Card 3 - plain text
+const card3 = "**Core Concepts:** Children actively adapt to their world through building mental schemas (plans/patterns about how things work). Intelligence develops through stages, not just accumulating facts.";
+
+document.getElementById('result').innerHTML = `
+<h2>Card 1 (markdown):</h2>
+<div style="border:1px solid #ccc; padding:10px; margin:10px 0;">
+${formatContent(card1)}
+</div>
+
+<h2>Card 3 (plain text):</h2>
+<div style="border:1px solid #ccc; padding:10px; margin:10px 0;">
+${formatContent(card3)}
+</div>
+`;
+</script>
+</body>
+</html>
