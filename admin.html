@@ -267,15 +267,23 @@
     </div>
     
     <script>
-        const topics = [
-            { id: 'brain_development', title: 'Early Brain Development' },
-            { id: 'piaget_stages', title: "Piaget's Stages of Development" },
-            { id: 'cognitive_development', title: "Piaget's Cognitive Development Theory" },
-            { id: 'dweck_mindset', title: "Dweck's Mindset Theory" },
-            { id: 'willingham_learning', title: "Willingham's Learning Theory" },
-            { id: 'three_mountains', title: 'Three Mountains Study' },
-            { id: 'parent_praise', title: 'Parent Praise Study' }
-        ];
+        let allTopics = [];
+        
+        async function loadTopics() {
+            try {
+                const [topic1Data, topic2Data] = await Promise.all([
+                    fetch('study_data.json').then(r => r.json()),
+                    fetch('study_data_topic2.json').then(r => r.json())
+                ]);
+                
+                allTopics = [
+                    ...topic1Data.sections.map(s => ({...s, topicPrefix: 'topic1'})),
+                    ...topic2Data.sections.map(s => ({...s, topicPrefix: 'topic2'}))
+                ];
+            } catch (error) {
+                console.error('Error loading topics:', error);
+            }
+        }
         
         function loadAdminData() {
             const progress = JSON.parse(localStorage.getItem('psychologyProgress')) || {
@@ -294,16 +302,17 @@
                 : 0;
             document.getElementById('avgScore').textContent = avgScore + '%';
             
-            const completionRate = Math.round((progress.completedSections.length / topics.length) * 100);
+            const completionRate = allTopics.length > 0 ? Math.round((progress.completedSections.length / allTopics.length) * 100) : 0;
             document.getElementById('completionRate').textContent = completionRate + '%';
             
             // Load topic progress
             const topicContainer = document.getElementById('topicProgress');
             const quizAttempted = JSON.parse(localStorage.getItem('quizAttempted')) || {};
             
-            topicContainer.innerHTML = topics.map(topic => {
-                const isCompleted = progress.completedSections.includes(topic.id);
-                const quizTaken = quizAttempted[topic.id];
+            topicContainer.innerHTML = allTopics.map(topic => {
+                const topicKey = `${topic.topicPrefix}_${topic.id}`;
+                const isCompleted = progress.completedSections.includes(topicKey);
+                const quizTaken = quizAttempted[topicKey];
                 return `
                     <div class="progress-item">
                         <div class="topic-info">
@@ -317,7 +326,7 @@
                                 </span>
                             </div>
                         </div>
-                        <button onclick="resetTopic('${topic.id}')" class="reset-btn">🔄 Reset</button>
+                        <button onclick="resetTopic('${topicKey}', '${topic.title}')" class="reset-btn">🔄 Reset</button>
                     </div>
                 `;
             }).join('');
@@ -358,8 +367,7 @@
             loadAdminData();
         }
         
-        function resetTopic(topicId) {
-            const topicName = topics.find(t => t.id === topicId)?.title || topicId;
+        function resetTopic(topicKey, topicName) {
             if (confirm(`Reset all progress for "${topicName}"? This will clear study progress, quiz attempts, and performance history.`)) {
                 // Reset study progress
                 const progress = JSON.parse(localStorage.getItem('psychologyProgress')) || {
@@ -369,7 +377,7 @@
                     completedSections: []
                 };
                 
-                const index = progress.completedSections.indexOf(topicId);
+                const index = progress.completedSections.indexOf(topicKey);
                 if (index > -1) {
                     progress.completedSections.splice(index, 1);
                     progress.studySessions = Math.max(0, progress.studySessions - 1);
@@ -387,7 +395,7 @@
                 
                 // Reset quiz attempt restriction
                 const quizAttempted = JSON.parse(localStorage.getItem('quizAttempted')) || {};
-                delete quizAttempted[topicId];
+                delete quizAttempted[topicKey];
                 localStorage.setItem('quizAttempted', JSON.stringify(quizAttempted));
                 
                 loadAdminData();
@@ -405,7 +413,10 @@
         }
         
         // Load data on page load
-        document.addEventListener('DOMContentLoaded', loadAdminData);
+        document.addEventListener('DOMContentLoaded', async () => {
+            await loadTopics();
+            loadAdminData();
+        });
         
         // Auto-refresh every 30 seconds
         setInterval(loadAdminData, 30000);
