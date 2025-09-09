@@ -1,0 +1,247 @@
+{
+  "research_methods_intro": [
+    {
+      "type": "multiple",
+      "question": "What is the main purpose of using research methods in psychology?",
+      "options": [
+        "To prove theories are always correct",
+        "To systematically investigate human behavior",
+        "To make psychology more complicated",
+        "To replace common sense"
+      ],
+      "correct": 1
+    },
+    {
+      "type": "multiple",
+      "question": "Which type of research uses numbers and statistics?",
+      "options": [
+        "Qualitative research",
+        "Quantitative research",
+        "Observational research",
+        "Case study research"
+      ],
+      "correct": 1
+    },
+    {
+      "type": "multiple",
+      "question": "What does 'reliability' mean in research?",
+      "options": [
+        "The research is expensive",
+        "The research takes a long time",
+        "The findings can be trusted and repeated",
+        "The research uses many participants"
+      ],
+      "correct": 2
+    }
+  ],
+  "experimental_method": [
+    {
+      "type": "multiple",
+      "question": "What is the independent variable in an experiment?",
+      "options": [
+        "The variable that is measured",
+        "The variable that is changed by the researcher",
+        "The variable that stays the same",
+        "The variable that participants control"
+      ],
+      "correct": 1
+    },
+    {
+      "type": "multiple",
+      "question": "In a repeated measures design, what happens?",
+      "options": [
+        "Different participants are used in each condition",
+        "The same participants are used in all conditions",
+        "Participants are matched on key characteristics",
+        "Only one condition is tested"
+      ],
+      "correct": 1
+    },
+    {
+      "type": "multiple",
+      "question": "What is a major strength of the experimental method?",
+      "options": [
+        "It always uses natural settings",
+        "It never has ethical issues",
+        "It can establish cause and effect",
+        "It requires no planning"
+      ],
+      "correct": 2
+    }
+  ],
+  "observational_methods": [
+    {
+      "type": "multiple",
+      "question": "What is naturalistic observation?",
+      "options": [
+        "Observing behavior in a laboratory",
+        "Observing behavior in natural environments",
+        "Observing behavior through interviews",
+        "Observing behavior in textbooks"
+      ],
+      "correct": 1
+    },
+    {
+      "type": "multiple",
+      "question": "In covert observation, participants:",
+      "options": [
+        "Know they are being observed",
+        "Don't know they are being observed",
+        "Are paid for participation",
+        "Choose what to be observed doing"
+      ],
+      "correct": 1
+    },
+    {
+      "type": "multiple",
+      "question": "What is a weakness of observational methods?",
+      "options": [
+        "They provide detailed data",
+        "They study natural behavior",
+        "They cannot establish cause and effect",
+        "They are always ethical"
+      ],
+      "correct": 2
+    }
+  ],
+  "self_report_methods": [
+    {
+      "type": "multiple",
+      "question": "What is a closed question in a questionnaire?",
+      "options": [
+        "A question that is difficult to answer",
+        "A question with fixed response options",
+        "A question that participants can skip",
+        "A question about personal topics"
+      ],
+      "correct": 1
+    },
+    {
+      "type": "multiple",
+      "question": "What is social desirability bias?",
+      "options": [
+        "Wanting to be popular with researchers",
+        "Giving answers that make you look good",
+        "Only talking to people you like",
+        "Avoiding social situations"
+      ],
+      "correct": 1
+    },
+    {
+      "type": "multiple",
+      "question": "Which type of interview is most flexible?",
+      "options": [
+        "Structured interview",
+        "Semi-structured interview",
+        "Unstructured interview",
+        "Group interview"
+      ],
+      "correct": 2
+    }
+  ],
+  "case_studies": [
+    {
+      "type": "multiple",
+      "question": "What is a case study?",
+      "options": [
+        "A study of many people briefly",
+        "An in-depth study of one individual or group",
+        "A study using only questionnaires",
+        "A study that takes one day"
+      ],
+      "correct": 1
+    },
+    {
+      "type": "multiple",
+      "question": "What was significant about the Phineas Gage case study?",
+      "options": [
+        "It showed the link between brain injury and personality",
+        "It proved memory doesn't exist",
+        "It demonstrated perfect brain function",
+        "It showed all brain areas are the same"
+      ],
+      "correct": 0
+    },
+    {
+      "type": "multiple",
+      "question": "What is a major weakness of case studies?",
+      "options": [
+        "They provide too little information",
+        "They are always unethical",
+        "Results cannot be generalized to other people",
+        "They are too expensive"
+      ],
+      "correct": 2
+    }
+  ],
+  "sampling_methods": [
+    {
+      "type": "multiple",
+      "question": "What is opportunity sampling?",
+      "options": [
+        "Selecting people randomly from a list",
+        "Using people who are easily available",
+        "Asking people to volunteer",
+        "Selecting every 10th person"
+      ],
+      "correct": 1
+    },
+    {
+      "type": "multiple",
+      "question": "What is the target population?",
+      "options": [
+        "The people actually studied",
+        "The people who volunteer",
+        "All people the research aims to understand",
+        "The people who are available"
+      ],
+      "correct": 2
+    },
+    {
+      "type": "multiple",
+      "question": "What is an advantage of random sampling?",
+      "options": [
+        "It's quick and easy",
+        "It's unbiased and representative",
+        "It uses volunteers",
+        "It's always cheap"
+      ],
+      "correct": 1
+    }
+  ],
+  "ethics_in_research": [
+    {
+      "type": "multiple",
+      "question": "What is informed consent?",
+      "options": [
+        "Paying participants for their time",
+        "Participants understanding what they're agreeing to",
+        "Keeping participant names secret",
+        "Telling participants the results"
+      ],
+      "correct": 1
+    },
+    {
+      "type": "multiple",
+      "question": "When might deception be acceptable in research?",
+      "options": [
+        "When it makes the study easier",
+        "When there's no other way to study the behavior and no significant harm",
+        "When participants won't notice",
+        "Deception is never acceptable"
+      ],
+      "correct": 1
+    },
+    {
+      "type": "multiple",
+      "question": "What is debriefing?",
+      "options": [
+        "Paying participants after the study",
+        "Explaining the true purpose after participation",
+        "Recruiting more participants",
+        "Publishing the research results"
+      ],
+      "correct": 1
+    }
+  ]
+}

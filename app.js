@@ -15,8 +15,17 @@ let userProgress = JSON.parse(localStorage.getItem('psychologyProgress')) || {
 };
 
 function loadStudyData() {
-    const fileName = currentTopic === 'topic1' ? 'study_data.json' : 'study_data_topic2.json';
-    const savedKey = currentTopic === 'topic1' ? 'studyData' : 'studyDataTopic2';
+    let fileName, savedKey;
+    if (currentTopic === 'topic1') {
+        fileName = 'study_data.json';
+        savedKey = 'studyData';
+    } else if (currentTopic === 'topic2') {
+        fileName = 'study_data_topic2.json';
+        savedKey = 'studyDataTopic2';
+    } else if (currentTopic === 'topic11') {
+        fileName = 'study_data_topic11.json';
+        savedKey = 'studyDataTopic11';
+    }
     
     const savedData = localStorage.getItem(savedKey);
     if (savedData) {
@@ -42,9 +51,13 @@ function switchTopic() {
     currentTopic = dropdown.value;
     
     const title = document.getElementById('topic-title');
-    title.textContent = currentTopic === 'topic1' ? 
-        "Let's review Topic - 1 from GCSE TEXT BOOK" : 
-        "Let's review Topic - 2 from GCSE TEXT BOOK";
+    if (currentTopic === 'topic1') {
+        title.textContent = "Let's review Topic 1 - Development from GCSE TEXT BOOK";
+    } else if (currentTopic === 'topic2') {
+        title.textContent = "Let's review Topic 2 - Memory from GCSE TEXT BOOK";
+    } else if (currentTopic === 'topic11') {
+        title.textContent = "Let's review Topic 11 - Research Methods from GCSE TEXT BOOK";
+    }
     
     loadStudyData();
 }
@@ -218,7 +231,14 @@ function startQuiz(sectionId) {
         return;
     }
     
-    const fileName = currentTopic === 'topic1' ? 'quiz_data.json' : 'quiz_data_topic2.json';
+    let fileName;
+    if (currentTopic === 'topic1') {
+        fileName = 'quiz_data.json';
+    } else if (currentTopic === 'topic2') {
+        fileName = 'quiz_data_topic2.json';
+    } else if (currentTopic === 'topic11') {
+        fileName = 'quiz_data_topic11.json';
+    }
     
     fetch(fileName)
         .then(response => response.json())

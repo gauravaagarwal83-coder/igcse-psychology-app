@@ -233,6 +233,7 @@
                     <option value="all">All Topics</option>
                     <option value="topic1">Topic 1 - Development</option>
                     <option value="topic2">Topic 2 - Memory</option>
+                    <option value="topic11">Topic 11 - Research Methods</option>
                 </select>
             </div>
         </div>
@@ -279,14 +280,16 @@
         
         async function loadTopics() {
             try {
-                const [topic1Data, topic2Data] = await Promise.all([
+                const [topic1Data, topic2Data, topic11Data] = await Promise.all([
                     fetch('study_data.json').then(r => r.json()),
-                    fetch('study_data_topic2.json').then(r => r.json())
+                    fetch('study_data_topic2.json').then(r => r.json()),
+                    fetch('study_data_topic11.json').then(r => r.json())
                 ]);
                 
                 allTopics = [
                     ...topic1Data.sections.map(s => ({...s, topicPrefix: 'topic1'})),
-                    ...topic2Data.sections.map(s => ({...s, topicPrefix: 'topic2'}))
+                    ...topic2Data.sections.map(s => ({...s, topicPrefix: 'topic2'})),
+                    ...topic11Data.sections.map(s => ({...s, topicPrefix: 'topic11'}))
                 ];
             } catch (error) {
                 console.error('Error loading topics:', error);
