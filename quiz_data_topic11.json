@@ -32,6 +32,182 @@
         "The research uses many participants"
       ],
       "correct": 2
+    },
+    {
+      "type": "multiple",
+      "question": "What does 'validity' refer to in research?",
+      "options": [
+        "How expensive the research is",
+        "Whether results represent real-life situations",
+        "How many people participated",
+        "How long the research took"
+      ],
+      "correct": 1
+    },
+    {
+      "type": "multiple",
+      "question": "Which research approach explores experiences in depth using words?",
+      "options": [
+        "Quantitative research",
+        "Statistical research",
+        "Qualitative research",
+        "Mathematical research"
+      ],
+      "correct": 2
+    },
+    {
+      "type": "multiple",
+      "question": "What is objectivity in research?",
+      "options": [
+        "Using expensive equipment",
+        "Reducing personal bias",
+        "Having many participants",
+        "Taking a long time"
+      ],
+      "correct": 1
+    },
+    {
+      "type": "multiple",
+      "question": "What does replication mean in research?",
+      "options": [
+        "Copying someone else's work",
+        "Other researchers getting the same results",
+        "Using the same participants twice",
+        "Publishing results multiple times"
+      ],
+      "correct": 1
+    },
+    {
+      "type": "multiple",
+      "question": "A hypothesis is:",
+      "options": [
+        "The final conclusion of research",
+        "A testable prediction about behavior",
+        "The method used in research",
+        "The participants in a study"
+      ],
+      "correct": 1
+    },
+    {
+      "type": "multiple",
+      "question": "Variables in research are:",
+      "options": [
+        "Always the same",
+        "Factors that can change or be measured",
+        "Only used in experiments",
+        "Not important"
+      ],
+      "correct": 1
+    },
+    {
+      "type": "multiple",
+      "question": "What are controls in research?",
+      "options": [
+        "The researchers in charge",
+        "Keeping conditions the same",
+        "The participants who control the study",
+        "The final results"
+      ],
+      "correct": 1
+    },
+    {
+      "type": "multiple",
+      "question": "The scientific method involves:",
+      "options": [
+        "Only using expensive equipment",
+        "Systematic investigation with controls",
+        "Always proving theories correct",
+        "Never questioning results"
+      ],
+      "correct": 1
+    },
+    {
+      "type": "multiple",
+      "question": "Why is it important to analyze patterns in data?",
+      "options": [
+        "To make the research longer",
+        "To understand what the results mean",
+        "To confuse other researchers",
+        "To make the research more expensive"
+      ],
+      "correct": 1
+    },
+    {
+      "type": "multiple",
+      "question": "What makes research systematic?",
+      "options": [
+        "Using random methods",
+        "Following organized, planned procedures",
+        "Always getting the same results",
+        "Using only one method"
+      ],
+      "correct": 1
+    },
+    {
+      "type": "multiple",
+      "question": "Evidence-based conclusions are important because:",
+      "options": [
+        "They sound more scientific",
+        "They are based on actual data rather than opinions",
+        "They are always correct",
+        "They are easier to understand"
+      ],
+      "correct": 1
+    },
+    {
+      "type": "multiple",
+      "question": "Which is an example of quantitative data?",
+      "options": [
+        "Detailed interview responses",
+        "Test scores out of 100",
+        "Personal life stories",
+        "Observations of behavior"
+      ],
+      "correct": 1
+    },
+    {
+      "type": "multiple",
+      "question": "Which is an example of qualitative data?",
+      "options": [
+        "Reaction times in milliseconds",
+        "Detailed descriptions of experiences",
+        "Number of correct answers",
+        "Height measurements"
+      ],
+      "correct": 1
+    },
+    {
+      "type": "multiple",
+      "question": "Why do researchers need to test theories?",
+      "options": [
+        "To prove they are always right",
+        "To see if they are supported by evidence",
+        "To make them more complicated",
+        "To waste time"
+      ],
+      "correct": 1
+    },
+    {
+      "type": "multiple",
+      "question": "What happens when research findings are not reliable?",
+      "options": [
+        "They become more valuable",
+        "Other researchers cannot trust or repeat them",
+        "They are automatically correct",
+        "They become easier to understand"
+      ],
+      "correct": 1
+    },
+    {
+      "type": "multiple",
+      "question": "Research methods help psychology be more:",
+      "options": [
+        "Complicated and confusing",
+        "Scientific and reliable",
+        "Expensive and time-consuming",
+        "Personal and biased"
+      ],
+      "correct": 1
     }
   ],
   "experimental_method": [
