@@ -932,5 +932,227 @@
       ],
       "correct": 1
     }
+  ],
+  "research_evaluation": [
+    {
+      "type": "multiple",
+      "question": "What is generalisability in research?",
+      "options": [
+        "How expensive the research is",
+        "Whether findings can apply to other people and situations",
+        "How long the research takes",
+        "How many researchers are involved"
+      ],
+      "correct": 1
+    },
+    {
+      "type": "multiple",
+      "question": "What is population generalisability?",
+      "options": [
+        "How many people live in an area",
+        "Whether results apply to other groups of people",
+        "The size of the sample used",
+        "How popular the research is"
+      ],
+      "correct": 1
+    },
+    {
+      "type": "multiple",
+      "question": "What is reliability in research?",
+      "options": [
+        "How trustworthy the researchers are",
+        "Consistency of results when study is repeated",
+        "How expensive the equipment is",
+        "How long the study takes"
+      ],
+      "correct": 1
+    },
+    {
+      "type": "multiple",
+      "question": "What is test-retest reliability?",
+      "options": [
+        "Testing many people at once",
+        "Getting the same results when the test is repeated over time",
+        "Using different tests for different people",
+        "Testing people multiple times in one session"
+      ],
+      "correct": 1
+    },
+    {
+      "type": "multiple",
+      "question": "What is inter-observer reliability?",
+      "options": [
+        "Observers working together",
+        "Different researchers getting the same results",
+        "Observers watching each other",
+        "Using multiple observation methods"
+      ],
+      "correct": 1
+    },
+    {
+      "type": "multiple",
+      "question": "What is internal validity?",
+      "options": [
+        "Whether the study is conducted inside",
+        "Whether the IV really causes changes in the DV",
+        "How internal the research team is",
+        "Whether participants are honest"
+      ],
+      "correct": 1
+    },
+    {
+      "type": "multiple",
+      "question": "What is external validity?",
+      "options": [
+        "Whether the study is conducted outside",
+        "Whether results apply to real-world settings",
+        "How external the researchers are",
+        "Whether the study uses external funding"
+      ],
+      "correct": 1
+    },
+    {
+      "type": "multiple",
+      "question": "What is ecological validity?",
+      "options": [
+        "How environmentally friendly the research is",
+        "Whether results apply to real-life situations",
+        "Whether the study involves nature",
+        "How the research affects ecosystems"
+      ],
+      "correct": 1
+    },
+    {
+      "type": "multiple",
+      "question": "What are confounding variables?",
+      "options": [
+        "Variables that are confusing",
+        "Other factors that might affect the results",
+        "Variables that are measured",
+        "Variables that are controlled"
+      ],
+      "correct": 1
+    },
+    {
+      "type": "multiple",
+      "question": "What is applicability in research?",
+      "options": [
+        "How easy it is to apply for research funding",
+        "How useful findings are in real-world contexts",
+        "Whether people want to participate",
+        "How applicable the research methods are"
+      ],
+      "correct": 1
+    },
+    {
+      "type": "multiple",
+      "question": "What are demand characteristics?",
+      "options": [
+        "Expensive equipment needed",
+        "When participants guess the aim and change behavior",
+        "Demanding participants",
+        "Characteristics researchers demand"
+      ],
+      "correct": 1
+    },
+    {
+      "type": "multiple",
+      "question": "What is the Hawthorne effect?",
+      "options": [
+        "A type of research method",
+        "When behavior changes because people know they're being observed",
+        "A statistical technique",
+        "A type of sampling method"
+      ],
+      "correct": 1
+    },
+    {
+      "type": "multiple",
+      "question": "How can reliability be improved?",
+      "options": [
+        "Using more expensive equipment",
+        "Standardizing procedures and training observers",
+        "Using fewer participants",
+        "Making the study shorter"
+      ],
+      "correct": 1
+    },
+    {
+      "type": "multiple",
+      "question": "What is temporal validity?",
+      "options": [
+        "How long the study takes",
+        "Whether findings apply across different time periods",
+        "The timing of data collection",
+        "How temporary the results are"
+      ],
+      "correct": 1
+    },
+    {
+      "type": "multiple",
+      "question": "Laboratory experiments typically have:",
+      "options": [
+        "High ecological validity",
+        "High internal validity but low ecological validity",
+        "Low internal validity",
+        "Poor reliability"
+      ],
+      "correct": 1
+    },
+    {
+      "type": "multiple",
+      "question": "Case studies typically have:",
+      "options": [
+        "High generalisability",
+        "Poor generalisability but rich detailed data",
+        "High reliability",
+        "Low ecological validity"
+      ],
+      "correct": 1
+    },
+    {
+      "type": "multiple",
+      "question": "What is cultural validity?",
+      "options": [
+        "Whether the study respects culture",
+        "Whether findings apply across different cultures",
+        "How cultural the researchers are",
+        "Whether the study uses cultural methods"
+      ],
+      "correct": 1
+    },
+    {
+      "type": "multiple",
+      "question": "What threatens internal validity?",
+      "options": [
+        "Using too many participants",
+        "Confounding variables and participant differences",
+        "Having high ecological validity",
+        "Using standardized procedures"
+      ],
+      "correct": 1
+    },
+    {
+      "type": "multiple",
+      "question": "Naturalistic observations typically have:",
+      "options": [
+        "High internal validity",
+        "High ecological validity but low internal validity",
+        "Poor applicability",
+        "High reliability"
+      ],
+      "correct": 1
+    },
+    {
+      "type": "multiple",
+      "question": "When evaluating ethics, we consider:",
+      "options": [
+        "Only the cost of the research",
+        "Whether participants were protected from harm and gave consent",
+        "Only the results obtained",
+        "How long the research took"
+      ],
+      "correct": 1
+    }
   ]
 }
