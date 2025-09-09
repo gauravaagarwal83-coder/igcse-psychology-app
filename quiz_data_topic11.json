@@ -1,250 +1,4 @@
 {
-  "research_methods_intro": [
-    {
-      "type": "multiple",
-      "question": "What is the main purpose of using research methods in psychology?",
-      "options": [
-        "To prove theories are always correct",
-        "To systematically investigate human behavior",
-        "To make psychology more complicated",
-        "To replace common sense"
-      ],
-      "correct": 1
-    },
-    {
-      "type": "multiple",
-      "question": "Which type of research uses numbers and statistics?",
-      "options": [
-        "Qualitative research",
-        "Quantitative research",
-        "Observational research",
-        "Case study research"
-      ],
-      "correct": 1
-    },
-    {
-      "type": "multiple",
-      "question": "What does 'reliability' mean in research?",
-      "options": [
-        "The research is expensive",
-        "The research takes a long time",
-        "The findings can be trusted and repeated",
-        "The research uses many participants"
-      ],
-      "correct": 2
-    },
-    {
-      "type": "multiple",
-      "question": "What does 'validity' refer to in research?",
-      "options": [
-        "How expensive the research is",
-        "Whether results represent real-life situations",
-        "How many people participated",
-        "How long the research took"
-      ],
-      "correct": 1
-    },
-    {
-      "type": "multiple",
-      "question": "Which research approach explores experiences in depth using words?",
-      "options": [
-        "Quantitative research",
-        "Statistical research",
-        "Qualitative research",
-        "Mathematical research"
-      ],
-      "correct": 2
-    },
-    {
-      "type": "multiple",
-      "question": "What is objectivity in research?",
-      "options": [
-        "Using expensive equipment",
-        "Reducing personal bias",
-        "Having many participants",
-        "Taking a long time"
-      ],
-      "correct": 1
-    },
-    {
-      "type": "multiple",
-      "question": "What does replication mean in research?",
-      "options": [
-        "Copying someone else's work",
-        "Other researchers getting the same results",
-        "Using the same participants twice",
-        "Publishing results multiple times"
-      ],
-      "correct": 1
-    },
-    {
-      "type": "multiple",
-      "question": "A hypothesis is:",
-      "options": [
-        "The final conclusion of research",
-        "A testable prediction about behavior",
-        "The method used in research",
-        "The participants in a study"
-      ],
-      "correct": 1
-    },
-    {
-      "type": "multiple",
-      "question": "Variables in research are:",
-      "options": [
-        "Always the same",
-        "Factors that can change or be measured",
-        "Only used in experiments",
-        "Not important"
-      ],
-      "correct": 1
-    },
-    {
-      "type": "multiple",
-      "question": "What are controls in research?",
-      "options": [
-        "The researchers in charge",
-        "Keeping conditions the same",
-        "The participants who control the study",
-        "The final results"
-      ],
-      "correct": 1
-    },
-    {
-      "type": "multiple",
-      "question": "The scientific method involves:",
-      "options": [
-        "Only using expensive equipment",
-        "Systematic investigation with controls",
-        "Always proving theories correct",
-        "Never questioning results"
-      ],
-      "correct": 1
-    },
-    {
-      "type": "multiple",
-      "question": "Why is it important to analyze patterns in data?",
-      "options": [
-        "To make the research longer",
-        "To understand what the results mean",
-        "To confuse other researchers",
-        "To make the research more expensive"
-      ],
-      "correct": 1
-    },
-    {
-      "type": "multiple",
-      "question": "What makes research systematic?",
-      "options": [
-        "Using random methods",
-        "Following organized, planned procedures",
-        "Always getting the same results",
-        "Using only one method"
-      ],
-      "correct": 1
-    },
-    {
-      "type": "multiple",
-      "question": "Evidence-based conclusions are important because:",
-      "options": [
-        "They sound more scientific",
-        "They are based on actual data rather than opinions",
-        "They are always correct",
-        "They are easier to understand"
-      ],
-      "correct": 1
-    },
-    {
-      "type": "multiple",
-      "question": "Which is an example of quantitative data?",
-      "options": [
-        "Detailed interview responses",
-        "Test scores out of 100",
-        "Personal life stories",
-        "Observations of behavior"
-      ],
-      "correct": 1
-    },
-    {
-      "type": "multiple",
-      "question": "Which is an example of qualitative data?",
-      "options": [
-        "Reaction times in milliseconds",
-        "Detailed descriptions of experiences",
-        "Number of correct answers",
-        "Height measurements"
-      ],
-      "correct": 1
-    },
-    {
-      "type": "multiple",
-      "question": "Why do researchers need to test theories?",
-      "options": [
-        "To prove they are always right",
-        "To see if they are supported by evidence",
-        "To make them more complicated",
-        "To waste time"
-      ],
-      "correct": 1
-    },
-    {
-      "type": "multiple",
-      "question": "What happens when research findings are not reliable?",
-      "options": [
-        "They become more valuable",
-        "Other researchers cannot trust or repeat them",
-        "They are automatically correct",
-        "They become easier to understand"
-      ],
-      "correct": 1
-    },
-    {
-      "type": "multiple",
-      "question": "Research methods help psychology be more:",
-      "options": [
-        "Complicated and confusing",
-        "Scientific and reliable",
-        "Expensive and time-consuming",
-        "Personal and biased"
-      ],
-      "correct": 1
-    }
-  ],
-  "experimental_method": [
-    {
-      "type": "multiple",
-      "question": "What is the independent variable in an experiment?",
-      "options": [
-        "The variable that is measured",
-        "The variable that is changed by the researcher",
-        "The variable that stays the same",
-        "The variable that participants control"
-      ],
-      "correct": 1
-    },
-    {
-      "type": "multiple",
-      "question": "In a repeated measures design, what happens?",
-      "options": [
-        "Different participants are used in each condition",
-        "The same participants are used in all conditions",
-        "Participants are matched on key characteristics",
-        "Only one condition is tested"
-      ],
-      "correct": 1
-    },
-    {
-      "type": "multiple",
-      "question": "What is a major strength of the experimental method?",
-      "options": [
-        "It always uses natural settings",
-        "It never has ethical issues",
-        "It can establish cause and effect",
-        "It requires no planning"
-      ],
-      "correct": 2
-    }
-  ],
   "observational_methods": [
     {
       "type": "multiple",
@@ -278,6 +32,171 @@
         "They are always ethical"
       ],
       "correct": 2
+    },
+    {
+      "type": "multiple",
+      "question": "What is controlled observation?",
+      "options": [
+        "Observation in natural settings",
+        "Observation in controlled environments",
+        "Observation without any planning",
+        "Observation using only cameras"
+      ],
+      "correct": 1
+    },
+    {
+      "type": "multiple",
+      "question": "In participant observation, the researcher:",
+      "options": [
+        "Remains separate from the group",
+        "Joins the group being studied",
+        "Only uses questionnaires",
+        "Never interacts with participants"
+      ],
+      "correct": 1
+    },
+    {
+      "type": "multiple",
+      "question": "What is an advantage of non-participant observation?",
+      "options": [
+        "Gains insider perspective",
+        "More objective",
+        "Always more detailed",
+        "Easier to conduct"
+      ],
+      "correct": 1
+    },
+    {
+      "type": "multiple",
+      "question": "What is overt observation?",
+      "options": [
+        "Participants don't know they're being observed",
+        "Participants know they're being observed",
+        "Only done in laboratories",
+        "Only done outdoors"
+      ],
+      "correct": 1
+    },
+    {
+      "type": "multiple",
+      "question": "What is a disadvantage of covert observation?",
+      "options": [
+        "More natural behavior",
+        "Ethical concerns about consent",
+        "Too expensive",
+        "Takes too long"
+      ],
+      "correct": 1
+    },
+    {
+      "type": "multiple",
+      "question": "What is structured observation?",
+      "options": [
+        "Open-ended recording",
+        "Uses predetermined categories",
+        "No planning involved",
+        "Only done by one person"
+      ],
+      "correct": 1
+    },
+    {
+      "type": "multiple",
+      "question": "What is unstructured observation?",
+      "options": [
+        "Uses predetermined categories",
+        "Open-ended recording",
+        "Very quick to analyze",
+        "Always objective"
+      ],
+      "correct": 1
+    },
+    {
+      "type": "multiple",
+      "question": "Why might naturalistic observation have high ecological validity?",
+      "options": [
+        "It uses many participants",
+        "Behavior is studied in natural settings",
+        "It's always ethical",
+        "It's quick to conduct"
+      ],
+      "correct": 1
+    },
+    {
+      "type": "multiple",
+      "question": "What is observer bias?",
+      "options": [
+        "Using too many observers",
+        "When observer's expectations affect recordings",
+        "Observing for too long",
+        "Using expensive equipment"
+      ],
+      "correct": 1
+    },
+    {
+      "type": "multiple",
+      "question": "Why might overt observation cause unnatural behavior?",
+      "options": [
+        "Participants are tired",
+        "Participants know they're being watched",
+        "The setting is artificial",
+        "Too many researchers present"
+      ],
+      "correct": 1
+    },
+    {
+      "type": "multiple",
+      "question": "What type of data do observations typically provide?",
+      "options": [
+        "Only numbers",
+        "Rich, detailed qualitative data",
+        "Only statistics",
+        "Simple yes/no answers"
+      ],
+      "correct": 1
+    },
+    {
+      "type": "multiple",
+      "question": "Why can't observational studies establish cause and effect?",
+      "options": [
+        "They use too few participants",
+        "No variables are manipulated by the researcher",
+        "They take too long",
+        "They're always unethical"
+      ],
+      "correct": 1
+    },
+    {
+      "type": "multiple",
+      "question": "What makes observations difficult to replicate exactly?",
+      "options": [
+        "They're too expensive",
+        "Natural settings and behaviors vary",
+        "They use too many participants",
+        "They're always covert"
+      ],
+      "correct": 1
+    },
+    {
+      "type": "multiple",
+      "question": "When might covert observation be justified?",
+      "options": [
+        "When it's more convenient",
+        "When overt observation would change natural behavior",
+        "When researchers are lazy",
+        "Never - it's always wrong"
+      ],
+      "correct": 1
+    },
+    {
+      "type": "multiple",
+      "question": "What is an advantage of structured observation?",
+      "options": [
+        "Captures all unexpected behaviors",
+        "Easier to analyze and compare data",
+        "Takes longer to conduct",
+        "More subjective"
+      ],
+      "correct": 1
     }
   ],
   "self_report_methods": [
@@ -313,6 +232,160 @@
         "Group interview"
       ],
       "correct": 2
+    },
+    {
+      "type": "multiple",
+      "question": "What is an open question?",
+      "options": [
+        "A question with fixed response options",
+        "A question allowing free response in own words",
+        "A question that's easy to answer",
+        "A question about public topics"
+      ],
+      "correct": 1
+    },
+    {
+      "type": "multiple",
+      "question": "What is an advantage of closed questions?",
+      "options": [
+        "Provide rich detailed information",
+        "Easy to analyze statistically",
+        "Allow unlimited responses",
+        "Take longer to answer"
+      ],
+      "correct": 1
+    },
+    {
+      "type": "multiple",
+      "question": "What is a structured interview?",
+      "options": [
+        "Conversation-like approach",
+        "Same questions asked to all participants",
+        "No questions prepared in advance",
+        "Only group interviews"
+      ],
+      "correct": 1
+    },
+    {
+      "type": "multiple",
+      "question": "What is a disadvantage of open questions?",
+      "options": [
+        "Easy to analyze",
+        "Harder to analyze and compare",
+        "Provide limited information",
+        "Quick to answer"
+      ],
+      "correct": 1
+    },
+    {
+      "type": "multiple",
+      "question": "What is a leading question?",
+      "options": [
+        "The first question in a survey",
+        "A question that suggests a particular answer",
+        "A question that's hard to understand",
+        "A question about leadership"
+      ],
+      "correct": 1
+    },
+    {
+      "type": "multiple",
+      "question": "What is a double-barreled question?",
+      "options": [
+        "A very long question",
+        "A question asking about two things at once",
+        "A question asked twice",
+        "A question with two correct answers"
+      ],
+      "correct": 1
+    },
+    {
+      "type": "multiple",
+      "question": "Why should jargon be avoided in questions?",
+      "options": [
+        "It makes questions too short",
+        "Participants may not understand complex terms",
+        "It's always incorrect",
+        "It makes analysis easier"
+      ],
+      "correct": 1
+    },
+    {
+      "type": "multiple",
+      "question": "What is an advantage of self-report methods?",
+      "options": [
+        "Always provide accurate data",
+        "Access to thoughts and feelings",
+        "Never have ethical issues",
+        "Always objective"
+      ],
+      "correct": 1
+    },
+    {
+      "type": "multiple",
+      "question": "What memory limitation affects self-report accuracy?",
+      "options": [
+        "People have perfect memory",
+        "People may not remember events accurately",
+        "People remember too much",
+        "Memory doesn't affect responses"
+      ],
+      "correct": 1
+    },
+    {
+      "type": "multiple",
+      "question": "Why might people not be aware of their true motivations?",
+      "options": [
+        "They're always lying",
+        "Some psychological processes are unconscious",
+        "They don't want to participate",
+        "They're not intelligent enough"
+      ],
+      "correct": 1
+    },
+    {
+      "type": "multiple",
+      "question": "What is semi-structured interview?",
+      "options": [
+        "No questions prepared",
+        "Core questions plus follow-up questions",
+        "Only closed questions",
+        "Only one question asked"
+      ],
+      "correct": 1
+    },
+    {
+      "type": "multiple",
+      "question": "Why are large amounts of data an advantage?",
+      "options": [
+        "Makes analysis harder",
+        "Provides more comprehensive understanding",
+        "Always more accurate",
+        "Takes longer to collect"
+      ],
+      "correct": 1
+    },
+    {
+      "type": "multiple",
+      "question": "What makes unstructured interviews difficult to analyze?",
+      "options": [
+        "Too much standardization",
+        "Responses vary greatly between participants",
+        "Too few questions asked",
+        "Always provide numbers"
+      ],
+      "correct": 1
+    },
+    {
+      "type": "multiple",
+      "question": "When might social desirability bias be strongest?",
+      "options": [
+        "When questions are about neutral topics",
+        "When questions are about sensitive or personal topics",
+        "When participants are anonymous",
+        "When questions are very short"
+      ],
+      "correct": 1
     }
   ],
   "case_studies": [
@@ -348,6 +421,149 @@
         "They are too expensive"
       ],
       "correct": 2
+    },
+    {
+      "type": "multiple",
+      "question": "What was the Little Albert study about?",
+      "options": [
+        "Memory formation",
+        "Conditioned fear responses",
+        "Language development",
+        "Social behavior"
+      ],
+      "correct": 1
+    },
+    {
+      "type": "multiple",
+      "question": "What did Patient HM's case study reveal?",
+      "options": [
+        "All memory is the same",
+        "Different types of memory systems exist",
+        "Memory is not important",
+        "The brain doesn't control memory"
+      ],
+      "correct": 1
+    },
+    {
+      "type": "multiple",
+      "question": "What characterizes case studies?",
+      "options": [
+        "Brief examination of many cases",
+        "Detailed examination over extended time",
+        "Only uses one research method",
+        "Studies only common cases"
+      ],
+      "correct": 1
+    },
+    {
+      "type": "multiple",
+      "question": "What are clinical case studies?",
+      "options": [
+        "Studies of healthy individuals",
+        "Studies focusing on psychological disorders",
+        "Studies done in schools",
+        "Studies of animals"
+      ],
+      "correct": 1
+    },
+    {
+      "type": "multiple",
+      "question": "What are developmental case studies?",
+      "options": [
+        "Studies of brain damage",
+        "Studies tracking changes over time",
+        "Studies of one day only",
+        "Studies of adults only"
+      ],
+      "correct": 1
+    },
+    {
+      "type": "multiple",
+      "question": "What are neuropsychological case studies?",
+      "options": [
+        "Studies of normal brain function only",
+        "Studies of brain damage effects",
+        "Studies of behavior only",
+        "Studies of memory only"
+      ],
+      "correct": 1
+    },
+    {
+      "type": "multiple",
+      "question": "What data collection methods do case studies use?",
+      "options": [
+        "Only interviews",
+        "Multiple methods including interviews, tests, observations",
+        "Only brain scans",
+        "Only questionnaires"
+      ],
+      "correct": 1
+    },
+    {
+      "type": "multiple",
+      "question": "Why do case studies have high ecological validity?",
+      "options": [
+        "They use many participants",
+        "They study real-life situations in detail",
+        "They're always done in laboratories",
+        "They use artificial settings"
+      ],
+      "correct": 1
+    },
+    {
+      "type": "multiple",
+      "question": "How do case studies generate hypotheses?",
+      "options": [
+        "They prove theories correct",
+        "They provide ideas for future research to test",
+        "They end all research",
+        "They only describe what happened"
+      ],
+      "correct": 1
+    },
+    {
+      "type": "multiple",
+      "question": "Why can't case studies be replicated exactly?",
+      "options": [
+        "They're too expensive",
+        "Each case is unique",
+        "They take too long",
+        "They use too many methods"
+      ],
+      "correct": 1
+    },
+    {
+      "type": "multiple",
+      "question": "What is researcher bias in case studies?",
+      "options": [
+        "Using too many researchers",
+        "Researcher's expectations affecting interpretation",
+        "Researchers being too objective",
+        "Not having enough researchers"
+      ],
+      "correct": 1
+    },
+    {
+      "type": "multiple",
+      "question": "Why are rare conditions often studied through case studies?",
+      "options": [
+        "They're easier to study",
+        "Too few people have them for large-scale studies",
+        "They're more interesting",
+        "They're always more important"
+      ],
+      "correct": 1
+    },
+    {
+      "type": "multiple",
+      "question": "What makes case study data 'rich'?",
+      "options": [
+        "It costs a lot of money",
+        "It provides detailed, comprehensive information",
+        "It uses expensive equipment",
+        "It takes a long time"
+      ],
+      "correct": 1
     }
   ],
   "sampling_methods": [
@@ -383,6 +599,149 @@
         "It's always cheap"
       ],
       "correct": 1
+    },
+    {
+      "type": "multiple",
+      "question": "What is systematic sampling?",
+      "options": [
+        "Selecting people randomly",
+        "Selecting every nth person from a list",
+        "Using volunteers only",
+        "Matching participants"
+      ],
+      "correct": 1
+    },
+    {
+      "type": "multiple",
+      "question": "What is stratified sampling?",
+      "options": [
+        "Random selection from the whole population",
+        "Population divided into subgroups, then random sample from each",
+        "Using only volunteers",
+        "Selecting the first people available"
+      ],
+      "correct": 1
+    },
+    {
+      "type": "multiple",
+      "question": "What is volunteer sampling?",
+      "options": [
+        "Researchers choose participants",
+        "People choose to participate themselves",
+        "Random selection",
+        "Using friends and family"
+      ],
+      "correct": 1
+    },
+    {
+      "type": "multiple",
+      "question": "What is snowball sampling?",
+      "options": [
+        "Sampling in winter only",
+        "Participants recruit other participants",
+        "Random sampling",
+        "Using only students"
+      ],
+      "correct": 1
+    },
+    {
+      "type": "multiple",
+      "question": "What is volunteer bias?",
+      "options": [
+        "Volunteers are always wrong",
+        "Volunteers may have certain personality types",
+        "Volunteers are always right",
+        "Volunteers don't exist"
+      ],
+      "correct": 1
+    },
+    {
+      "type": "multiple",
+      "question": "Why are large samples better?",
+      "options": [
+        "They're cheaper",
+        "More representative of the population",
+        "Easier to manage",
+        "Take less time"
+      ],
+      "correct": 1
+    },
+    {
+      "type": "multiple",
+      "question": "What is a disadvantage of small samples?",
+      "options": [
+        "Too expensive",
+        "May not represent population well",
+        "Take too long",
+        "Too reliable"
+      ],
+      "correct": 1
+    },
+    {
+      "type": "multiple",
+      "question": "What does 'representative sample' mean?",
+      "options": [
+        "Sample that speaks for others",
+        "Sample that reflects characteristics of the population",
+        "Sample that volunteers",
+        "Sample that's very large"
+      ],
+      "correct": 1
+    },
+    {
+      "type": "multiple",
+      "question": "When might snowball sampling be useful?",
+      "options": [
+        "For common behaviors",
+        "For hard-to-reach groups",
+        "For large populations",
+        "For quick studies"
+      ],
+      "correct": 1
+    },
+    {
+      "type": "multiple",
+      "question": "What is statistical power?",
+      "options": [
+        "How strong participants are",
+        "Ability to detect real effects in data",
+        "How much electricity is used",
+        "How loud the results are"
+      ],
+      "correct": 1
+    },
+    {
+      "type": "multiple",
+      "question": "Why might opportunity sampling be biased?",
+      "options": [
+        "It's too random",
+        "May not represent the whole population",
+        "Uses too many people",
+        "Takes too long"
+      ],
+      "correct": 1
+    },
+    {
+      "type": "multiple",
+      "question": "What makes stratified sampling representative?",
+      "options": [
+        "It uses volunteers",
+        "Ensures all subgroups are included proportionally",
+        "It's completely random",
+        "It's the quickest method"
+      ],
+      "correct": 1
+    },
+    {
+      "type": "multiple",
+      "question": "What is a disadvantage of random sampling?",
+      "options": [
+        "It's biased",
+        "Time-consuming and may be impractical",
+        "Not representative",
+        "Too cheap"
+      ],
+      "correct": 1
     }
   ],
   "ethics_in_research": [
@@ -416,6 +775,160 @@
         "Explaining the true purpose after participation",
         "Recruiting more participants",
         "Publishing the research results"
+      ],
+      "correct": 1
+    },
+    {
+      "type": "multiple",
+      "question": "What is the right to withdraw?",
+      "options": [
+        "Participants can take their data away",
+        "Participants can leave the study at any time",
+        "Researchers can remove participants",
+        "Studies can be stopped early"
+      ],
+      "correct": 1
+    },
+    {
+      "type": "multiple",
+      "question": "What is protection from harm?",
+      "options": [
+        "Only physical safety",
+        "Protecting from physical, psychological, and social harm",
+        "Only psychological safety",
+        "Only during the study"
+      ],
+      "correct": 1
+    },
+    {
+      "type": "multiple",
+      "question": "What is confidentiality?",
+      "options": [
+        "Telling everyone about participants",
+        "Keeping participant identity secret",
+        "Using participants' real names",
+        "Sharing data with everyone"
+      ],
+      "correct": 1
+    },
+    {
+      "type": "multiple",
+      "question": "Why do children need special ethical consideration?",
+      "options": [
+        "They're more intelligent",
+        "They may not fully understand what they're agreeing to",
+        "They're always willing to participate",
+        "They don't need protection"
+      ],
+      "correct": 1
+    },
+    {
+      "type": "multiple",
+      "question": "What do ethics committees do?",
+      "options": [
+        "Conduct research themselves",
+        "Review research proposals before studies begin",
+        "Recruit participants",
+        "Analyze data"
+      ],
+      "correct": 1
+    },
+    {
+      "type": "multiple",
+      "question": "What was ethically problematic about Milgram's study?",
+      "options": [
+        "It was too short",
+        "It caused significant distress to participants",
+        "It was too expensive",
+        "It used too few participants"
+      ],
+      "correct": 1
+    },
+    {
+      "type": "multiple",
+      "question": "When is consent particularly important in naturalistic observation?",
+      "options": [
+        "Never - it's always natural",
+        "When people are in private spaces",
+        "Only in laboratories",
+        "Only with children"
+      ],
+      "correct": 1
+    },
+    {
+      "type": "multiple",
+      "question": "What should debriefing include?",
+      "options": [
+        "Only the results",
+        "True purpose, addressing concerns, opportunity to withdraw data",
+        "Only payment information",
+        "Nothing - it's not necessary"
+      ],
+      "correct": 1
+    },
+    {
+      "type": "multiple",
+      "question": "What are vulnerable groups in research?",
+      "options": [
+        "Only children",
+        "People who may need extra protection (children, mentally ill, prisoners)",
+        "Only elderly people",
+        "Only students"
+      ],
+      "correct": 1
+    },
+    {
+      "type": "multiple",
+      "question": "Why must benefits outweigh risks?",
+      "options": [
+        "To make research profitable",
+        "To ensure research is ethically justified",
+        "To make research faster",
+        "To use fewer participants"
+      ],
+      "correct": 1
+    },
+    {
+      "type": "multiple",
+      "question": "What is psychological harm?",
+      "options": [
+        "Only physical injury",
+        "Distress, embarrassment, or mental suffering",
+        "Only permanent damage",
+        "Only during the study"
+      ],
+      "correct": 1
+    },
+    {
+      "type": "multiple",
+      "question": "What is social harm?",
+      "options": [
+        "Harm to society as a whole",
+        "Damage to reputation and relationships",
+        "Only physical harm in groups",
+        "Harm that happens in public"
+      ],
+      "correct": 1
+    },
+    {
+      "type": "multiple",
+      "question": "Why is anonymity important in research?",
+      "options": [
+        "Makes research more interesting",
+        "Protects participants from potential negative consequences",
+        "Makes analysis easier",
+        "Reduces costs"
+      ],
+      "correct": 1
+    },
+    {
+      "type": "multiple",
+      "question": "What must researchers consider when balancing ethics and research value?",
+      "options": [
+        "Only the cost",
+        "Scientific value, benefits to society, risks to participants",
+        "Only the time required",
+        "Only their own interests"
       ],
       "correct": 1
     }
