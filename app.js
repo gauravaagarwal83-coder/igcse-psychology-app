@@ -1,18 +1,36 @@
 let studyData = {};
 let currentQuiz = null;
+let currentQuizSectionId = null;
 let currentQuestion = 0;
 let quizScore = 0;
 let quizTimer = null;
 let timeLeft = 15;
 let currentTopic = 'topic1';
-let quizAttempted = JSON.parse(localStorage.getItem('quizAttempted')) || {};
+let quizAttempted = {};
 let studySwiper;
-let userProgress = JSON.parse(localStorage.getItem('psychologyProgress')) || {
-    studySessions: 0,
-    quizAttempts: 0,
-    scores: [],
-    completedSections: []
-};
+let userProgress = {};
+
+try {
+    quizAttempted = JSON.parse(localStorage.getItem('quizAttempted')) || {};
+} catch (e) {
+    quizAttempted = {};
+}
+
+try {
+    userProgress = JSON.parse(localStorage.getItem('psychologyProgress')) || {
+        studySessions: 0,
+        quizAttempts: 0,
+        scores: [],
+        completedSections: []
+    };
+} catch (e) {
+    userProgress = {
+        studySessions: 0,
+        quizAttempts: 0,
+        scores: [],
+        completedSections: []
+    };
+}
 
 function loadStudyData() {
     let fileName, savedKey;
@@ -25,6 +43,9 @@ function loadStudyData() {
     } else if (currentTopic === 'topic11') {
         fileName = 'study_data_topic11.json';
         savedKey = 'studyDataTopic11';
+    } else {
+        fileName = 'study_data.json';
+        savedKey = 'studyData';
     }
     
     const savedData = localStorage.getItem(savedKey);
@@ -110,7 +131,7 @@ function loadStudyTopics() {
                         🧠 Quiz
                     </button>
                     <button onclick="markAsStudied('${section.id}')" class="study-btn">
-                        ${userProgress.completedSections.includes(section.id) ? '✓ Done' : 'Mark Done'}
+                        ${userProgress.completedSections.includes(`${currentTopic}_${section.id}`) ? '✓ Done' : 'Mark Done'}
                     </button>
                 </div>
             </div>
@@ -238,12 +259,15 @@ function startQuiz(sectionId) {
         fileName = 'quiz_data_topic2.json';
     } else if (currentTopic === 'topic11') {
         fileName = 'quiz_data_topic11.json';
+    } else {
+        fileName = 'quiz_data.json';
     }
     
     fetch(fileName)
         .then(response => response.json())
         .then(quizData => {
             currentQuiz = quizData[sectionId] || [];
+            currentQuizSectionId = sectionId;
             currentQuestion = 0;
             quizScore = 0;
             
@@ -394,11 +418,13 @@ function showQuizResults() {
     userProgress.scores.push(percentage);
     
     // Mark quiz as attempted with topic prefix
-    const lastSection = studyData.sections && studyData.sections.length > 0 ? 
-        studyData.sections[0].id : 'default';
-    const quizKey = `${currentTopic}_${lastSection}`;
+    const quizKey = `${currentTopic}_${currentQuizSectionId}`;
     quizAttempted[quizKey] = true;
-    localStorage.setItem('quizAttempted', JSON.stringify(quizAttempted));
+    try {
+        localStorage.setItem('quizAttempted', JSON.stringify(quizAttempted));
+    } catch (e) {
+        console.warn('Could not save quiz attempt:', e);
+    }
     
     saveProgress();
     
@@ -463,5 +489,9 @@ function updateProgress() {
 
 
 function saveProgress() {
-    localStorage.setItem('psychologyProgress', JSON.stringify(userProgress));
+    try {
+        localStorage.setItem('psychologyProgress', JSON.stringify(userProgress));
+    } catch (e) {
+        console.warn('Could not save progress:', e);
+    }
 }
