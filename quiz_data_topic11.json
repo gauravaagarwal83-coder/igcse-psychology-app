@@ -54,6 +54,171 @@
         "Mathematical research"
       ],
       "correct": 2
+    },
+    {
+      "type": "multiple",
+      "question": "What is a hypothesis in research?",
+      "options": [
+        "A proven fact",
+        "A testable prediction",
+        "A research method",
+        "A type of participant"
+      ],
+      "correct": 1
+    },
+    {
+      "type": "multiple",
+      "question": "What is the difference between primary and secondary data?",
+      "options": [
+        "Primary is more important than secondary",
+        "Primary is collected firsthand, secondary is from existing sources",
+        "Primary uses numbers, secondary uses words",
+        "There is no difference"
+      ],
+      "correct": 1
+    },
+    {
+      "type": "multiple",
+      "question": "What is a population in research terms?",
+      "options": [
+        "The number of people in a country",
+        "All individuals the research aims to study",
+        "The researchers conducting the study",
+        "The location where research takes place"
+      ],
+      "correct": 1
+    },
+    {
+      "type": "multiple",
+      "question": "What is a sample in research?",
+      "options": [
+        "A small piece of data",
+        "The subset of population actually studied",
+        "A research method",
+        "A type of question"
+      ],
+      "correct": 1
+    },
+    {
+      "type": "multiple",
+      "question": "What does 'operationalization' mean?",
+      "options": [
+        "Running a research operation",
+        "Defining variables in measurable terms",
+        "Operating research equipment",
+        "Working with other researchers"
+      ],
+      "correct": 1
+    },
+    {
+      "type": "multiple",
+      "question": "What is a confounding variable?",
+      "options": [
+        "A variable that confuses participants",
+        "An unwanted variable that affects results",
+        "A variable that is measured",
+        "A variable that is controlled"
+      ],
+      "correct": 1
+    },
+    {
+      "type": "multiple",
+      "question": "What is replication in research?",
+      "options": [
+        "Copying someone else's work",
+        "Repeating a study to check results",
+        "Making multiple copies of data",
+        "Using the same participants twice"
+      ],
+      "correct": 1
+    },
+    {
+      "type": "multiple",
+      "question": "What is peer review?",
+      "options": [
+        "Students reviewing each other's work",
+        "Experts evaluating research before publication",
+        "Participants reviewing the study",
+        "Researchers reviewing their own work"
+      ],
+      "correct": 1
+    },
+    {
+      "type": "multiple",
+      "question": "What is a pilot study?",
+      "options": [
+        "A study conducted by pilots",
+        "A small-scale trial run of the main study",
+        "A study about flying",
+        "The final version of a study"
+      ],
+      "correct": 1
+    },
+    {
+      "type": "multiple",
+      "question": "What is researcher bias?",
+      "options": [
+        "When researchers are unfair to participants",
+        "When researcher expectations influence results",
+        "When researchers are biased against research",
+        "When researchers prefer certain methods"
+      ],
+      "correct": 1
+    },
+    {
+      "type": "multiple",
+      "question": "What is participant bias?",
+      "options": [
+        "When participants don't like researchers",
+        "When participants alter behavior due to being studied",
+        "When participants are unfair",
+        "When participants refuse to participate"
+      ],
+      "correct": 1
+    },
+    {
+      "type": "multiple",
+      "question": "What is a null hypothesis?",
+      "options": [
+        "A hypothesis with no value",
+        "A prediction of no difference or relationship",
+        "A hypothesis that is wrong",
+        "A hypothesis about nothing"
+      ],
+      "correct": 1
+    },
+    {
+      "type": "multiple",
+      "question": "What is an alternative hypothesis?",
+      "options": [
+        "A backup hypothesis",
+        "A prediction of a difference or relationship",
+        "A hypothesis that's different",
+        "A hypothesis used instead of the main one"
+      ],
+      "correct": 1
+    },
+    {
+      "type": "multiple",
+      "question": "What is statistical significance?",
+      "options": [
+        "When statistics are important",
+        "When results are unlikely due to chance",
+        "When numbers are significant",
+        "When statistics are meaningful"
+      ],
+      "correct": 1
+    },
+    {
+      "type": "multiple",
+      "question": "What is the purpose of a control group?",
+      "options": [
+        "To control the experiment",
+        "To provide a baseline for comparison",
+        "To control participant behavior",
+        "To control variables"
+      ],
+      "correct": 1
     }
   ],
   "experimental_method": [
@@ -111,6 +276,171 @@
         "Variables that participants control"
       ],
       "correct": 1
+    },
+    {
+      "type": "multiple",
+      "question": "What is an independent groups design?",
+      "options": [
+        "Groups that work independently",
+        "Different participants in each condition",
+        "Groups that are independent of the researcher",
+        "Participants who don't know each other"
+      ],
+      "correct": 1
+    },
+    {
+      "type": "multiple",
+      "question": "What is a matched pairs design?",
+      "options": [
+        "Participants are paired randomly",
+        "Participants are matched on key characteristics",
+        "Participants work in pairs",
+        "Participants are matched by age only"
+      ],
+      "correct": 1
+    },
+    {
+      "type": "multiple",
+      "question": "What is a laboratory experiment?",
+      "options": [
+        "An experiment in a natural setting",
+        "An experiment in a controlled environment",
+        "An experiment with lab equipment",
+        "An experiment by lab technicians"
+      ],
+      "correct": 1
+    },
+    {
+      "type": "multiple",
+      "question": "What is a field experiment?",
+      "options": [
+        "An experiment in a field",
+        "An experiment in a natural setting with manipulation",
+        "An experiment outdoors",
+        "An experiment about fields"
+      ],
+      "correct": 1
+    },
+    {
+      "type": "multiple",
+      "question": "What is a natural experiment?",
+      "options": [
+        "An experiment in nature",
+        "An experiment using naturally occurring variables",
+        "An experiment without equipment",
+        "An experiment that occurs naturally"
+      ],
+      "correct": 1
+    },
+    {
+      "type": "multiple",
+      "question": "What is random allocation?",
+      "options": [
+        "Randomly choosing participants",
+        "Randomly assigning participants to conditions",
+        "Randomly selecting variables",
+        "Randomly timing the experiment"
+      ],
+      "correct": 1
+    },
+    {
+      "type": "multiple",
+      "question": "What is counterbalancing?",
+      "options": [
+        "Balancing the number of participants",
+        "Varying the order of conditions to control order effects",
+        "Balancing the budget",
+        "Balancing variables"
+      ],
+      "correct": 1
+    },
+    {
+      "type": "multiple",
+      "question": "What are order effects?",
+      "options": [
+        "Effects of giving orders to participants",
+        "Effects of the sequence in which conditions are presented",
+        "Effects of ordering equipment",
+        "Effects of alphabetical order"
+      ],
+      "correct": 1
+    },
+    {
+      "type": "multiple",
+      "question": "What is a practice effect?",
+      "options": [
+        "The effect of practicing research",
+        "Improvement in performance due to repetition",
+        "The effect of practical work",
+        "The effect of practice sessions"
+      ],
+      "correct": 1
+    },
+    {
+      "type": "multiple",
+      "question": "What is a fatigue effect?",
+      "options": [
+        "Being tired of research",
+        "Decline in performance due to tiredness",
+        "The effect of physical fatigue",
+        "Fatigue from too much data"
+      ],
+      "correct": 1
+    },
+    {
+      "type": "multiple",
+      "question": "What is standardization in experiments?",
+      "options": [
+        "Making everything standard size",
+        "Keeping procedures the same for all participants",
+        "Using standard equipment",
+        "Following standard rules"
+      ],
+      "correct": 1
+    },
+    {
+      "type": "multiple",
+      "question": "What is a single-blind procedure?",
+      "options": [
+        "Using one eye to observe",
+        "Participants don't know which condition they're in",
+        "Only one person conducts the experiment",
+        "Closing one eye during observation"
+      ],
+      "correct": 1
+    },
+    {
+      "type": "multiple",
+      "question": "What is a double-blind procedure?",
+      "options": [
+        "Using both eyes to observe",
+        "Neither participants nor researchers know conditions",
+        "Two people conduct the experiment",
+        "Closing both eyes during observation"
+      ],
+      "correct": 1
+    },
+    {
+      "type": "multiple",
+      "question": "What is demand characteristics?",
+      "options": [
+        "Demanding participants",
+        "Cues that reveal the study's purpose to participants",
+        "Characteristics that are in demand",
+        "Demanding too much from participants"
+      ],
+      "correct": 1
+    },
+    {
+      "type": "multiple",
+      "question": "What is the Hawthorne effect?",
+      "options": [
+        "An effect discovered in Hawthorne",
+        "Changes in behavior due to being observed",
+        "An effect on hawks",
+        "A type of experimental design"
+      ],
+      "correct": 1
     }
   ],
   "observational_methods": [
@@ -146,6 +476,193 @@
         "They are always ethical"
       ],
       "correct": 2
+    },
+    {
+      "type": "multiple",
+      "question": "What is overt observation?",
+      "options": [
+        "Observation that is over",
+        "Observation where participants know they're being watched",
+        "Observation from above",
+        "Observation that is obvious"
+      ],
+      "correct": 1
+    },
+    {
+      "type": "multiple",
+      "question": "What is participant observation?",
+      "options": [
+        "Participants observing each other",
+        "Researcher joins the group being studied",
+        "Participants observing the researcher",
+        "Observation of participants only"
+      ],
+      "correct": 1
+    },
+    {
+      "type": "multiple",
+      "question": "What is non-participant observation?",
+      "options": [
+        "Observation without participants",
+        "Researcher observes from outside the group",
+        "Participants don't observe anything",
+        "Observation that doesn't participate"
+      ],
+      "correct": 1
+    },
+    {
+      "type": "multiple",
+      "question": "What is structured observation?",
+      "options": [
+        "Observation in a structured building",
+        "Observation using predetermined categories",
+        "Observation that is well-organized",
+        "Observation with structure"
+      ],
+      "correct": 1
+    },
+    {
+      "type": "multiple",
+      "question": "What is unstructured observation?",
+      "options": [
+        "Observation without structure",
+        "Observation without predetermined categories",
+        "Observation in unstructured settings",
+        "Disorganized observation"
+      ],
+      "correct": 1
+    },
+    {
+      "type": "multiple",
+      "question": "What is a behavioral checklist?",
+      "options": [
+        "A list of behaviors to check off",
+        "A predetermined list of behaviors to observe",
+        "A checklist for behavior",
+        "A list checking behavior"
+      ],
+      "correct": 1
+    },
+    {
+      "type": "multiple",
+      "question": "What is time sampling?",
+      "options": [
+        "Sampling different times",
+        "Recording behavior at specific time intervals",
+        "Taking samples of time",
+        "Timing the sampling process"
+      ],
+      "correct": 1
+    },
+    {
+      "type": "multiple",
+      "question": "What is event sampling?",
+      "options": [
+        "Sampling different events",
+        "Recording behavior every time a specific event occurs",
+        "Taking samples at events",
+        "Sampling event data"
+      ],
+      "correct": 1
+    },
+    {
+      "type": "multiple",
+      "question": "What is inter-observer reliability?",
+      "options": [
+        "Reliability between observers",
+        "Agreement between different observers",
+        "Reliability of observations",
+        "Observers being reliable"
+      ],
+      "correct": 1
+    },
+    {
+      "type": "multiple",
+      "question": "What is observer bias?",
+      "options": [
+        "Bias against observers",
+        "When observer expectations influence what they see",
+        "Observers being biased",
+        "Bias in observation"
+      ],
+      "correct": 1
+    },
+    {
+      "type": "multiple",
+      "question": "What is controlled observation?",
+      "options": [
+        "Observation that is controlled",
+        "Observation in a controlled environment",
+        "Controlling the observation",
+        "Observation under control"
+      ],
+      "correct": 1
+    },
+    {
+      "type": "multiple",
+      "question": "What is the main advantage of naturalistic observation?",
+      "options": [
+        "It's natural",
+        "High ecological validity",
+        "It's easy to do",
+        "It's always ethical"
+      ],
+      "correct": 1
+    },
+    {
+      "type": "multiple",
+      "question": "What is a major disadvantage of covert observation?",
+      "options": [
+        "It's hidden",
+        "Ethical issues with lack of consent",
+        "It's difficult to do",
+        "It's not covert enough"
+      ],
+      "correct": 1
+    },
+    {
+      "type": "multiple",
+      "question": "What is reactivity in observation?",
+      "options": [
+        "How reactive observers are",
+        "Changes in behavior due to being observed",
+        "Chemical reactions during observation",
+        "Reacting to observations"
+      ],
+      "correct": 1
+    },
+    {
+      "type": "multiple",
+      "question": "What is a one-way mirror used for?",
+      "options": [
+        "Looking in one direction only",
+        "Observing without being seen",
+        "Reflecting light one way",
+        "Mirror that works once"
+      ],
+      "correct": 1
+    },
+    {
+      "type": "multiple",
+      "question": "What is continuous observation?",
+      "options": [
+        "Observation that continues",
+        "Recording all behavior throughout the observation period",
+        "Observation without breaks",
+        "Ongoing observation"
+      ],
+      "correct": 1
+    },
+    {
+      "type": "multiple",
+      "question": "What is the main ethical concern with naturalistic observation?",
+      "options": [
+        "It's not natural",
+        "Privacy and consent issues",
+        "It's too natural",
+        "Observing nature"
+      ],
+      "correct": 1
     }
   ],
   "self_report_methods": [
@@ -181,6 +698,181 @@
         "Group interview"
       ],
       "correct": 2
+    },
+    {
+      "type": "multiple",
+      "question": "What is an open question?",
+      "options": [
+        "A question that is open to everyone",
+        "A question allowing detailed, personal responses",
+        "A question that is easy to answer",
+        "A question with an obvious answer"
+      ],
+      "correct": 1
+    },
+    {
+      "type": "multiple",
+      "question": "What is a structured interview?",
+      "options": [
+        "An interview in a structured building",
+        "An interview with predetermined questions in fixed order",
+        "An interview that is well-organized",
+        "An interview with structure"
+      ],
+      "correct": 1
+    },
+    {
+      "type": "multiple",
+      "question": "What is an unstructured interview?",
+      "options": [
+        "An interview without structure",
+        "An interview like an informal conversation",
+        "An interview in unstructured settings",
+        "A disorganized interview"
+      ],
+      "correct": 1
+    },
+    {
+      "type": "multiple",
+      "question": "What is a leading question?",
+      "options": [
+        "A question that leads somewhere",
+        "A question that suggests a particular answer",
+        "The first question asked",
+        "A question asked by leaders"
+      ],
+      "correct": 1
+    },
+    {
+      "type": "multiple",
+      "question": "What is response bias?",
+      "options": [
+        "Bias in responses",
+        "Systematic patterns in how people respond",
+        "Responding with bias",
+        "Bias against responses"
+      ],
+      "correct": 1
+    },
+    {
+      "type": "multiple",
+      "question": "What is acquiescence bias?",
+      "options": [
+        "Bias towards acquaintances",
+        "Tendency to agree with statements",
+        "Acquiring bias",
+        "Bias in acquisition"
+      ],
+      "correct": 1
+    },
+    {
+      "type": "multiple",
+      "question": "What is a Likert scale?",
+      "options": [
+        "A scale invented by Likert",
+        "A rating scale from strongly disagree to strongly agree",
+        "A scale for measuring likes",
+        "A scale that people like"
+      ],
+      "correct": 1
+    },
+    {
+      "type": "multiple",
+      "question": "What is a semantic differential scale?",
+      "options": [
+        "A scale about semantics",
+        "A scale using opposite adjectives at each end",
+        "A differential scale",
+        "A scale with semantic meaning"
+      ],
+      "correct": 1
+    },
+    {
+      "type": "multiple",
+      "question": "What is interviewer bias?",
+      "options": [
+        "Bias against interviewers",
+        "When interviewer characteristics influence responses",
+        "Interviewers being biased",
+        "Bias in interviews"
+      ],
+      "correct": 1
+    },
+    {
+      "type": "multiple",
+      "question": "What is a focus group?",
+      "options": [
+        "A group that focuses",
+        "A group interview on a specific topic",
+        "A group with good focus",
+        "Focusing on groups"
+      ],
+      "correct": 1
+    },
+    {
+      "type": "multiple",
+      "question": "What is anonymity in questionnaires?",
+      "options": [
+        "Anonymous questionnaires",
+        "Participants cannot be identified",
+        "Questionnaires without names",
+        "Anonymous responses"
+      ],
+      "correct": 1
+    },
+    {
+      "type": "multiple",
+      "question": "What is confidentiality?",
+      "options": [
+        "Being confident",
+        "Keeping participant information private",
+        "Confidential information",
+        "Having confidence"
+      ],
+      "correct": 1
+    },
+    {
+      "type": "short",
+      "question": "Name one advantage of using questionnaires over interviews.",
+      "answer": "cost effective"
+    },
+    {
+      "type": "short",
+      "question": "What does 'rapport' mean in interview context?",
+      "answer": "good relationship"
+    },
+    {
+      "type": "multiple",
+      "question": "What is a pilot questionnaire?",
+      "options": [
+        "A questionnaire for pilots",
+        "A trial version to test for problems",
+        "A questionnaire about flying",
+        "The main questionnaire"
+      ],
+      "correct": 1
+    },
+    {
+      "type": "multiple",
+      "question": "What is response rate?",
+      "options": [
+        "How fast people respond",
+        "Percentage of people who complete the questionnaire",
+        "Rate of responding",
+        "Speed of responses"
+      ],
+      "correct": 1
+    },
+    {
+      "type": "multiple",
+      "question": "What is the main disadvantage of postal questionnaires?",
+      "options": [
+        "They use post",
+        "Low response rates",
+        "They're posted",
+        "Postal costs"
+      ],
+      "correct": 1
     }
   ],
   "case_studies": [
@@ -216,6 +908,193 @@
         "They are too expensive"
       ],
       "correct": 2
+    },
+    {
+      "type": "multiple",
+      "question": "What is a longitudinal case study?",
+      "options": [
+        "A case study that is long",
+        "A case study conducted over an extended period",
+        "A case study about longitude",
+        "A case study in a long building"
+      ],
+      "correct": 1
+    },
+    {
+      "type": "multiple",
+      "question": "What is triangulation in case studies?",
+      "options": [
+        "Using triangles in research",
+        "Using multiple sources of evidence",
+        "Three-way research",
+        "Triangular data collection"
+      ],
+      "correct": 1
+    },
+    {
+      "type": "multiple",
+      "question": "What was the HM case study about?",
+      "options": [
+        "Personality changes",
+        "Memory loss after brain surgery",
+        "Language development",
+        "Social behavior"
+      ],
+      "correct": 1
+    },
+    {
+      "type": "multiple",
+      "question": "What is the main strength of case studies?",
+      "options": [
+        "They're quick to do",
+        "Rich, detailed data about unique cases",
+        "They're always generalizable",
+        "They're cheap"
+      ],
+      "correct": 1
+    },
+    {
+      "type": "multiple",
+      "question": "What is a retrospective case study?",
+      "options": [
+        "Looking back at past events",
+        "A case study looking back at past events",
+        "A case study in retrospect",
+        "Studying retrospective cases"
+      ],
+      "correct": 1
+    },
+    {
+      "type": "multiple",
+      "question": "What is a prospective case study?",
+      "options": [
+        "A promising case study",
+        "A case study following events as they happen",
+        "A case study about prospects",
+        "Future case studies"
+      ],
+      "correct": 1
+    },
+    {
+      "type": "multiple",
+      "question": "What ethical issues might arise in case studies?",
+      "options": [
+        "No ethical issues exist",
+        "Confidentiality and anonymity concerns",
+        "Case studies are always ethical",
+        "Only financial issues"
+      ],
+      "correct": 1
+    },
+    {
+      "type": "multiple",
+      "question": "What is researcher subjectivity in case studies?",
+      "options": [
+        "Researchers being subjective",
+        "Personal interpretation influencing findings",
+        "Subjective researchers",
+        "Subjectivity in research"
+      ],
+      "correct": 1
+    },
+    {
+      "type": "multiple",
+      "question": "What is the Little Albert case study famous for?",
+      "options": [
+        "Memory research",
+        "Classical conditioning and fear",
+        "Language development",
+        "Social learning"
+      ],
+      "correct": 1
+    },
+    {
+      "type": "multiple",
+      "question": "What makes a case study 'unique'?",
+      "options": [
+        "It's one of a kind",
+        "Rare or unusual characteristics of the case",
+        "It's uniquely designed",
+        "Unique research methods"
+      ],
+      "correct": 1
+    },
+    {
+      "type": "multiple",
+      "question": "What is a collective case study?",
+      "options": [
+        "A case study done collectively",
+        "Multiple cases studied together",
+        "A collection of case studies",
+        "Collective research"
+      ],
+      "correct": 1
+    },
+    {
+      "type": "multiple",
+      "question": "What is an instrumental case study?",
+      "options": [
+        "Using instruments in research",
+        "Using a case to understand a broader issue",
+        "Instrumental research methods",
+        "Case studies with instruments"
+      ],
+      "correct": 1
+    },
+    {
+      "type": "multiple",
+      "question": "What is an intrinsic case study?",
+      "options": [
+        "Intrinsically valuable research",
+        "Interest in the case itself",
+        "Intrinsic research methods",
+        "Internal case studies"
+      ],
+      "correct": 1
+    },
+    {
+      "type": "multiple",
+      "question": "What data collection methods are used in case studies?",
+      "options": [
+        "Only interviews",
+        "Multiple methods including interviews, observations, documents",
+        "Only observations",
+        "Only documents"
+      ],
+      "correct": 1
+    },
+    {
+      "type": "multiple",
+      "question": "What is the Genie case study about?",
+      "options": [
+        "Memory loss",
+        "Language deprivation and development",
+        "Personality disorders",
+        "Social behavior"
+      ],
+      "correct": 1
+    },
+    {
+      "type": "multiple",
+      "question": "What is external validity in case studies?",
+      "options": [
+        "Validity outside the case",
+        "How well findings apply to other cases",
+        "External validation",
+        "Validity of external factors"
+      ],
+      "correct": 1
+    },
+    {
+      "type": "multiple",
+      "question": "What is the main challenge in case study research?",
+      "options": [
+        "Finding cases to study",
+        "Balancing detail with generalizability",
+        "Getting funding",
+        "Finding researchers"
+      ],
+      "correct": 1
     }
   ],
   "sampling_methods": [
@@ -251,6 +1130,193 @@
         "It's always cheap"
       ],
       "correct": 1
+    },
+    {
+      "type": "multiple",
+      "question": "What is systematic sampling?",
+      "options": [
+        "A systematic approach to sampling",
+        "Selecting every nth person from a list",
+        "Sampling systematically",
+        "A system for sampling"
+      ],
+      "correct": 1
+    },
+    {
+      "type": "multiple",
+      "question": "What is stratified sampling?",
+      "options": [
+        "Sampling in strata",
+        "Dividing population into subgroups then sampling from each",
+        "Sampling different strata",
+        "Stratified approach to sampling"
+      ],
+      "correct": 1
+    },
+    {
+      "type": "multiple",
+      "question": "What is volunteer sampling?",
+      "options": [
+        "Sampling volunteers",
+        "People volunteer to participate",
+        "Volunteering to sample",
+        "Voluntary sampling"
+      ],
+      "correct": 1
+    },
+    {
+      "type": "multiple",
+      "question": "What is quota sampling?",
+      "options": [
+        "Sampling quotas",
+        "Selecting specific numbers from different groups",
+        "Meeting sampling quotas",
+        "Quota-based sampling"
+      ],
+      "correct": 1
+    },
+    {
+      "type": "multiple",
+      "question": "What is cluster sampling?",
+      "options": [
+        "Sampling clusters",
+        "Selecting entire groups or clusters",
+        "Clustering samples",
+        "Sample clusters"
+      ],
+      "correct": 1
+    },
+    {
+      "type": "multiple",
+      "question": "What is sampling bias?",
+      "options": [
+        "Bias in sampling",
+        "When sample doesn't represent the population",
+        "Biased samples",
+        "Sampling with bias"
+      ],
+      "correct": 1
+    },
+    {
+      "type": "multiple",
+      "question": "What is sample size?",
+      "options": [
+        "The size of samples",
+        "The number of participants in the sample",
+        "How big samples are",
+        "Size of the sample"
+      ],
+      "correct": 1
+    },
+    {
+      "type": "multiple",
+      "question": "What is a representative sample?",
+      "options": [
+        "A sample that represents",
+        "A sample that reflects the target population",
+        "Representative sampling",
+        "Samples that represent"
+      ],
+      "correct": 1
+    },
+    {
+      "type": "multiple",
+      "question": "What is generalizability?",
+      "options": [
+        "Being general",
+        "How well findings apply to the wider population",
+        "Generalizing results",
+        "General applicability"
+      ],
+      "correct": 1
+    },
+    {
+      "type": "multiple",
+      "question": "What is a sampling frame?",
+      "options": [
+        "A frame for sampling",
+        "The list from which the sample is drawn",
+        "Framework for sampling",
+        "Framing the sample"
+      ],
+      "correct": 1
+    },
+    {
+      "type": "multiple",
+      "question": "What is convenience sampling?",
+      "options": [
+        "Convenient sampling",
+        "Same as opportunity sampling - using easily available people",
+        "Sampling for convenience",
+        "Convenient sample selection"
+      ],
+      "correct": 1
+    },
+    {
+      "type": "multiple",
+      "question": "What is snowball sampling?",
+      "options": [
+        "Sampling snowballs",
+        "Participants recruit other participants",
+        "Sampling that grows like a snowball",
+        "Cold sampling method"
+      ],
+      "correct": 1
+    },
+    {
+      "type": "multiple",
+      "question": "What is purposive sampling?",
+      "options": [
+        "Sampling with purpose",
+        "Deliberately selecting participants with specific characteristics",
+        "Purposeful sampling",
+        "Sampling for a purpose"
+      ],
+      "correct": 1
+    },
+    {
+      "type": "multiple",
+      "question": "What is the main disadvantage of opportunity sampling?",
+      "options": [
+        "It's too opportunistic",
+        "May not be representative of target population",
+        "Lacks opportunities",
+        "Too many opportunities"
+      ],
+      "correct": 1
+    },
+    {
+      "type": "multiple",
+      "question": "What is volunteer bias?",
+      "options": [
+        "Bias against volunteers",
+        "Volunteers may differ systematically from non-volunteers",
+        "Volunteers being biased",
+        "Bias in volunteering"
+      ],
+      "correct": 1
+    },
+    {
+      "type": "multiple",
+      "question": "What is random allocation different from random sampling?",
+      "options": [
+        "They're the same thing",
+        "Random allocation assigns participants to conditions, random sampling selects participants",
+        "Random allocation is more random",
+        "No difference"
+      ],
+      "correct": 1
+    },
+    {
+      "type": "multiple",
+      "question": "What is the minimum sample size for statistical analysis?",
+      "options": [
+        "Always 100",
+        "Depends on the research design and analysis planned",
+        "Always 30",
+        "As many as possible"
+      ],
+      "correct": 1
     }
   ],
   "ethics_in_research": [
@@ -284,6 +1350,193 @@
         "Explaining the true purpose after participation",
         "Recruiting more participants",
         "Publishing the research results"
+      ],
+      "correct": 1
+    },
+    {
+      "type": "multiple",
+      "question": "What is the right to withdraw?",
+      "options": [
+        "Withdrawing money from research",
+        "Participants can leave the study at any time",
+        "Researchers can withdraw from studies",
+        "Withdrawing research proposals"
+      ],
+      "correct": 1
+    },
+    {
+      "type": "multiple",
+      "question": "What is confidentiality in research?",
+      "options": [
+        "Being confident about research",
+        "Keeping participant information private",
+        "Confidential research methods",
+        "Research confidence"
+      ],
+      "correct": 1
+    },
+    {
+      "type": "multiple",
+      "question": "What is anonymity in research?",
+      "options": [
+        "Anonymous researchers",
+        "Participants cannot be identified",
+        "Anonymous research",
+        "Research without names"
+      ],
+      "correct": 1
+    },
+    {
+      "type": "multiple",
+      "question": "What is protection from harm?",
+      "options": [
+        "Protecting research from harm",
+        "Ensuring participants aren't physically or psychologically damaged",
+        "Harm protection services",
+        "Protective research"
+      ],
+      "correct": 1
+    },
+    {
+      "type": "multiple",
+      "question": "What is an ethics committee?",
+      "options": [
+        "A committee about ethics",
+        "A group that reviews research proposals for ethical issues",
+        "Ethical researchers",
+        "Committee ethics"
+      ],
+      "correct": 1
+    },
+    {
+      "type": "multiple",
+      "question": "What is presumptive consent?",
+      "options": [
+        "Presuming consent",
+        "Assuming similar people would consent",
+        "Presumptuous consent",
+        "Consent presumptions"
+      ],
+      "correct": 1
+    },
+    {
+      "type": "multiple",
+      "question": "What is prior general consent?",
+      "options": [
+        "General consent given prior",
+        "Consent given in advance for unspecified research",
+        "Prior consent generally",
+        "General prior consent"
+      ],
+      "correct": 1
+    },
+    {
+      "type": "multiple",
+      "question": "What are vulnerable populations?",
+      "options": [
+        "Populations that are vulnerable",
+        "Groups needing special protection (children, elderly, mentally ill)",
+        "Vulnerable research populations",
+        "Populations in vulnerable situations"
+      ],
+      "correct": 1
+    },
+    {
+      "type": "multiple",
+      "question": "What is coercion in research?",
+      "options": [
+        "Coercive research",
+        "Pressuring people to participate",
+        "Research coercion",
+        "Coercive participation"
+      ],
+      "correct": 1
+    },
+    {
+      "type": "multiple",
+      "question": "What is the Nuremberg Code?",
+      "options": [
+        "A code from Nuremberg",
+        "Ethical guidelines developed after WWII",
+        "Nuremberg's code",
+        "Code of Nuremberg"
+      ],
+      "correct": 1
+    },
+    {
+      "type": "multiple",
+      "question": "What is the Declaration of Helsinki?",
+      "options": [
+        "A declaration from Helsinki",
+        "Medical research ethics guidelines",
+        "Helsinki's declaration",
+        "Declaration about Helsinki"
+      ],
+      "correct": 1
+    },
+    {
+      "type": "multiple",
+      "question": "What is risk-benefit analysis?",
+      "options": [
+        "Analyzing risks and benefits",
+        "Weighing potential harm against potential benefits",
+        "Risk and benefit analysis",
+        "Beneficial risk analysis"
+      ],
+      "correct": 1
+    },
+    {
+      "type": "multiple",
+      "question": "What is minimal risk?",
+      "options": [
+        "Very small risk",
+        "Risk no greater than everyday life",
+        "Minimal research risk",
+        "Risk that is minimal"
+      ],
+      "correct": 1
+    },
+    {
+      "type": "multiple",
+      "question": "What is institutional approval?",
+      "options": [
+        "Approval from institutions",
+        "Permission from the organization conducting research",
+        "Institutional research approval",
+        "Approved institutions"
+      ],
+      "correct": 1
+    },
+    {
+      "type": "multiple",
+      "question": "What is data protection?",
+      "options": [
+        "Protecting data",
+        "Safeguarding participant information",
+        "Data protection services",
+        "Protected data"
+      ],
+      "correct": 1
+    },
+    {
+      "type": "multiple",
+      "question": "What is the right to privacy?",
+      "options": [
+        "Private rights",
+        "Participants' right to keep personal information private",
+        "Privacy rights",
+        "Right to be private"
+      ],
+      "correct": 1
+    },
+    {
+      "type": "multiple",
+      "question": "What should happen if a participant becomes distressed?",
+      "options": [
+        "Continue the study",
+        "Stop immediately and provide support",
+        "Ignore the distress",
+        "Ask them to continue"
       ],
       "correct": 1
     }
@@ -352,6 +1605,160 @@
         "How useful findings are in real-world contexts",
         "Whether people want to participate",
         "How applicable the research methods are"
+      ],
+      "correct": 1
+    },
+    {
+      "type": "multiple",
+      "question": "What is test-retest reliability?",
+      "options": [
+        "Testing and retesting",
+        "Consistency of results when same test is repeated",
+        "Reliable testing",
+        "Retesting reliability"
+      ],
+      "correct": 1
+    },
+    {
+      "type": "multiple",
+      "question": "What is inter-rater reliability?",
+      "options": [
+        "Reliability between raters",
+        "Agreement between different researchers/observers",
+        "Rating reliability",
+        "Reliable raters"
+      ],
+      "correct": 1
+    },
+    {
+      "type": "multiple",
+      "question": "What is construct validity?",
+      "options": [
+        "Validity of constructions",
+        "Whether the study measures what it claims to measure",
+        "Constructing validity",
+        "Valid constructs"
+      ],
+      "correct": 1
+    },
+    {
+      "type": "multiple",
+      "question": "What is face validity?",
+      "options": [
+        "Validity of faces",
+        "Whether a test appears to measure what it claims",
+        "Facial validity",
+        "Valid faces"
+      ],
+      "correct": 1
+    },
+    {
+      "type": "multiple",
+      "question": "What is concurrent validity?",
+      "options": [
+        "Validity at the same time",
+        "How well a test correlates with established measures",
+        "Concurrent research validity",
+        "Valid concurrency"
+      ],
+      "correct": 1
+    },
+    {
+      "type": "multiple",
+      "question": "What is predictive validity?",
+      "options": [
+        "Predicting validity",
+        "How well a test predicts future performance",
+        "Valid predictions",
+        "Predictive research validity"
+      ],
+      "correct": 1
+    },
+    {
+      "type": "multiple",
+      "question": "What is population validity?",
+      "options": [
+        "Validity of populations",
+        "Whether findings apply to the target population",
+        "Valid populations",
+        "Population research validity"
+      ],
+      "correct": 1
+    },
+    {
+      "type": "multiple",
+      "question": "What is temporal validity?",
+      "options": [
+        "Temporary validity",
+        "Whether findings remain valid over time",
+        "Valid timing",
+        "Temporal research validity"
+      ],
+      "correct": 1
+    },
+    {
+      "type": "multiple",
+      "question": "What is cultural validity?",
+      "options": [
+        "Validity of cultures",
+        "Whether findings apply across different cultures",
+        "Valid cultures",
+        "Cultural research validity"
+      ],
+      "correct": 1
+    },
+    {
+      "type": "multiple",
+      "question": "What is criterion validity?",
+      "options": [
+        "Validity of criteria",
+        "How well a test relates to an outcome measure",
+        "Valid criteria",
+        "Criterion research validity"
+      ],
+      "correct": 1
+    },
+    {
+      "type": "multiple",
+      "question": "What is content validity?",
+      "options": [
+        "Validity of content",
+        "Whether a test covers all aspects of what it should measure",
+        "Valid content",
+        "Content research validity"
+      ],
+      "correct": 1
+    },
+    {
+      "type": "multiple",
+      "question": "What is statistical conclusion validity?",
+      "options": [
+        "Valid statistical conclusions",
+        "Whether statistical conclusions are appropriate",
+        "Statistical validity conclusions",
+        "Concluding statistical validity"
+      ],
+      "correct": 1
+    },
+    {
+      "type": "multiple",
+      "question": "What threatens internal validity?",
+      "options": [
+        "Internal threats",
+        "Confounding variables and bias",
+        "Threatening validity internally",
+        "Internal validity threats"
+      ],
+      "correct": 1
+    },
+    {
+      "type": "multiple",
+      "question": "What is the relationship between internal and external validity?",
+      "options": [
+        "They're the same thing",
+        "Often a trade-off - high control may reduce real-world applicability",
+        "They're unrelated",
+        "Internal is more important"
       ],
       "correct": 1
     }
